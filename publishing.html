@@ -5,36 +5,72 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Publishing</title>
+  <!-- favcion -->
+  <!-- 오픈그라피 -->
+  <!-- reset -->
+  <link rel="stylesheet" href="./common/minireset.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="./publishing.css">
+  <!-- jQ -->
+  <script src="./common/jquery-3.7.0.min.js"></script>
+  <!-- gsap.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <!-- js -->
+  <script defer src="./publishing.js"></script>
+
 </head>
 
 <body>
-  <header>
-    <div class="hero-text">
+  <header class="header-box">
+    <div class="main-log">
+      <ul>
+        <li><img src="./gif/move-logo-fr-min.gif" alt="움직이는 로고"></li>
+        <li><p>햄버거바</p></li>
+      </ul>
+    </div>
+    <div class="hero-text scr">
       <p class="paragraph-header">
         We make <br />
         new worlds<span class="text-span">.</span>
       </p>
-      <h1 class="small-h1">We &#x27;re an award-winning animation studio, turning ideas into animated stories full of
+      <h1 class="small-h1">We&#x27;re an award-winning animation studio, turning ideas into animated stories full of
         character, magic and joy.</h1>
     </div>
-    <div class="nintendo-box">
+    <div class="one-image">
+      <div class="one-image-box">
+        <div class="box1">
+          <img class="trc" src="./svg=img/tr-pink.svg" alt="핑크색 삼각형">
+        </div>
+        <div class="box2">
+          <img src="./svg=img/extended.svg" alt="왕관모양">
+        </div>
+        <div class="box3">
+          <img src="./svg=img/blue-circle.svg" alt="파란색 공">
+        </div>
+        <div class="box4"> 
+          <img src="./svg=img/logo-o-new.svg" alt="태양 모양">
+        </div>
+      </div>
+    </div>
+    <div class="nintendo-box scr">
       <h2 class="nintendo">Nintendo</h2>
       <div class=" Mario">AR Adventures with Mario</div>
     </div>
-    <div class="acast-box">
+    <div class="acast-box scr">
       <h2 class="acast">Acast</h2>
       <div class="podcasts">Podcasts for Creators</div>
     </div>
-    <div class="lego-box">
+    <div class="lego-box scr">
       <h2 class="lego">LEGO</h2>
       <div class="lego-life">Bring your Lego City to life</div>
     </div>
-    <div class="toyota-box">
+    <div class="toyota-box scr">
       <h2 class="toyota">Toyota</h2>
       <div class="easy">Mobility made easy</div>
     </div>
   </header>
-  <section>
+  <section class="one">
     <div class="content-left">
       <h3>
         Hello There<span class="full-stop">.</span>
@@ -53,13 +89,409 @@
       </div>
     </div>
   </section>
-  <section></section>
-  <section></section>
-  <section></section>
-  <section></section>
-  <section></section>
-  <section></section>
-  <footer></footer>
+  <section class="tow">
+    <div class="content-left">
+      <h3>
+        <strong>What We Do</strong>
+        <span class="full-stop">.</span>
+      </h3>
+      <div class="content-right">
+        <h2>
+          We create compelling animations and interactive experiences for well-known brands and childrens
+          entertainment.<br />
+        </h2>
+        <p class="paragraph">
+          Our work spans various platforms, including <span> TV shows
+          , advertising campaigns
+          , ar apps
+          , explainer videos
+          , and motion graphics animations
+          . </span><br />
+          <br />
+          We bring together character design, storyboards, 2D &amp;3D animation, motion design, post-production,
+          sound design, vfx and app development, to craft memorable experiences that engage, inspire, and connect
+          with audiences.<br />
+          <br />
+          We make new worlds. Let us <span>Move</span>
+          yours...<br />‍
+        </p>
+        <p>
+          <a href="#" >Get in touch</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="three">
+    <div class="imga">
+      <ul>
+        <li>
+          <img src="" alt="">
+          <h3>aardman</h3>
+          <p>coming soon</p>
+        </li>
+        <li>
+          <img src="" alt="">
+          <h3>spotfiy</h3>
+          <p>insughts unwound</p>
+        </li>
+        <li>
+          <img src="" alt="">
+          <h3>HSBC</h3>
+          <p>coming soon</p>
+        </li>
+      </ul>
+      <a href="#">more work</a>
+    </div>
+  </section>
+  <section class="four">
+    <div class="content-left">
+      <h3>
+        <strong>Who We &#x27;ve Moved</strong>
+        <span class="full-stop">.</span>
+      </h3>
+    </div>
+    <div class="content-right">
+      <h2>We &#x27;re proud to have worked with many happy clients, but don &#x27;t take our word for it. Have a
+        look at some of the glowing testimonials we &#x27;ve received and see for yourself...</h2>
+    </div>
+    <div class="good-box">
+      <p class="quote-t6">
+        &quot;Move Animation were great to work with, very professional, quick to respond to client
+        feedback, provided high quality work and were ultra reliable on delivery. We work in an iterative
+        way with our clients and having Move Animation contribute from an early stage in that process was
+        vital to the project. <br />
+        <br />We will definitely partner with Move Animation again! &quot;
+      </p>
+      <div class="user-name-t6">William McLean</div>
+      <div class="company-name-t6">Director at Supermarket London</div>
+    </div>
+    <div class="good-box">
+      <p class="quote-t6">
+        &quot;Working with Move Animation Studio has been a highly successful long-term relationship for
+        us and I &#x27;ve come to rely on the expertise, commitment and superb quality of work that Jason
+        and the team have delivered time and again.<br />
+        <br />If you need support in this area I &#x27;d thoroughly recommend Move as a committed and
+        successful long-term partnership. &quot;
+      </p>
+      <div class="user-name-t6">Nick Ward</div>
+      <div class="company-name-t6">CEO at Form Worldwide</div>
+    </div>
+    <div class="good-box">
+      <p class="quote-t6">
+        &quot;Move &#x27;s world class animations have played a major part in taking our video content to
+        the next level. They are also a joy to work with as well. <br />
+        <br />
+        Can &#x27;t recommend enough. &quot;<br />
+      </p>
+      <div class="user-name-t6">Marc Convey</div>
+      <div class="company-name-t6">Founder &amp;CEO at 23D</div>
+    </div>
+  </section>
+  <section class="five">
+    <div class="content-left">
+      <h3>
+        <strong>How We Move</strong>
+        <span class="full-stop">.</span>
+      </h3>
+    </div>
+    <div class="paragraph">
+      <h2>Want to know more about what we do and how we do it?</h2>
+        <p class="paragraph">
+         Explore a range of commonly asked questions below, or if you &#x27;d rather chat IRL, head over to our
+         contact page to <a href="#">get in touch</a>
+         and discuss your next animated project.<br />‍
+        </p>
+    </div>
+    <div class="text">
+      What types of animation do you specialise in?
+    </div>
+    <div class="text-box">
+      <p>We specialise in a variety of animated videos, including 2D
+        animation, 3D animation (CGI), motion graphics, hand drawn, vector, and augmented reality (AR)
+        apps. This covers tv adverts, childrens tv series, character animation, explainer videos,
+        motion graphics, apps, games, special FX, product animations and social media animations to
+        name just a few. Our skilled animators and production team can bring your ideas to life in the
+        style and format that best suits your project &#x27;s goals.</p>
+    </div>
+    <div class="text">
+      What does your animation production
+                          process look like?
+    </div>
+    <div class="text-box">
+      <p>
+        Our animation process starts with a creative meeting, where
+                            we discuss your project &#x27;s goals, target audience, and style preferences. We then move on
+                            to scriptwriting, storyboarding, and pre-production. Once the concept is established, our
+                            animators begin creating your animation, using the relevant software and tools. We then add
+                            sound effects, music, and voiceover to bring your animation to life. Finally, we work with you
+                            to ensure that the animated video meets your expectations before delivering the final product.
+      </p>
+    </div>
+    <div class="text">
+      How much do animations cost to
+                          produce?
+    </div>
+    <div class="text-box">
+      <p>
+        The cost of animation production can vary depending on the
+                            complexity of the project, the length of the animation, and the level of detail required. We
+                            offer bespoke pricing for each project to ensure you get the best value for your budget. We
+                            provide a transparent breakdown of costs, including pre-production, production,
+                            post-production, and any additional creative services, such as voiceover or sound effects. We
+                            &#x27;re committed to providing a competitive price while maintaining high-quality production
+                            standards.
+      </p>
+    </div>
+    <div class="text">
+      What is Augmented Reality (AR)?
+    </div>
+    <div class="text-box">
+      <p>
+        Augmented Reality (AR) is an interactive experience that
+                          involves blending virtual animated elements with the real world. It uses a camera to overlay
+                          digital graphics onto a real-life environment, allowing users to interact with them in
+                          real-time. AR can be experienced using mobile devices, smart glasses, and or computers that
+                          have a camera attached. It is often used in marketing and advertising campaigns to create
+                          engaging and memorable experiences for consumers. We have years of experience creating
+                          animations and devloping AR applications, and can work with you to bring your AR ideas to
+                          life.
+      </p>
+    </div>
+    <div class="text">
+      How do you ensure the animation
+                          meets our expectations?
+    </div>
+    <div class="text-box">
+      <p>
+        We make sure to involve our clients in every step of the
+        creative production process to ensure that the final animated video meets your expectations.
+        We begin by having a detailed discussion about your project and what you hope to achieve with
+        your animation. We then provide you with a storyboard, concept art, and animation tests to
+        give you an idea of what the finsihed animated video will look like. We encourage feedback and
+        revisions throughout, to ensure that we stay on track and create the best possible animation
+        for your needs.
+      </p>
+    </div>
+    <div class="text">
+      What are the benefits of using
+      animation over filmed footage?
+    </div>
+    <div class="text-box">
+      <p>
+        There are several benefits to using animation over regular
+        filmed video footage. First, animation allows for complete creative control over every aspect
+        of the production, from character design to camera angles and special effects. Second,
+        animation can convey complex ideas and abstract concepts in a easy to understand way. Thirdly,
+        animation can be used to create a unique and memorable brand identity and finally, animation
+        is highly versatile and can be used in a range of applications, from advertising and marketing
+        to childrens television and entertainment.
+      </p>
+    </div>
+    <div class="text">
+      How long does it take to produce an
+                          animation?
+    </div>
+    <div class="text-box">
+      <p>
+        The time it takes to produce an animated video can vary
+                          depending on the complexity of the project, the length of the animation, and the level of
+                          detail required. For a basic 2D animation, it can take anywhere from a couple of weeks to a
+                          couple of months. More complex animations, such as 3D or augmented reality experiences, can
+                          take several months or even up to a year to produce depending on many factors and the overall
+                          length of the required content. However, we &#x27;ll always work closely with you to establish
+                          a timeline and keep you informed of progress along the way.
+      </p>
+    </div>
+    <div class="text">
+      What software and tools do you use
+      to create animations?
+    </div>
+    <div class="text-box">
+      <p>
+        Our animation studio uses the latest industry-standard
+        software and tools to create high-quality animations. For motion design we use Adobe After
+        Effects, while for 2D character animation we use Cel Action. For 3D cgi animation, we use
+        Autodesk Maya and Cinema 4D. We also use various plugins and tools to enhance our animations,
+        render animated stills and add special effects.
+      </p>
+    </div>
+    <div class="text">
+      Can you create custom characters
+      &amp;designs for my project?
+    </div>
+    <div class="text-box">
+      <p>
+        Yes, we can definitely create custom characters and designs
+        for your project! Our team of experienced designers can work with you to develop unique and
+        memorable characters that fit your brand or vision. We can provide you with various concept
+        designs to choose from and refine them until you are satisfied with the final result. Our team
+        is also skilled in developing unique backgrounds and environments that complement the story
+        and characters.
+      </p>
+    </div>
+    <div class="text">
+      What is the difference between 2D
+      and 3D animation?
+    </div>
+    <div class="text-box">
+      <p>
+        The difference between 2D and 3D animation is that 2D is
+        created on a flat plane, while 3D animation is created in a three-dimensional space. 2D
+        animation involves drawing or manipulating images on a flat surface. It is often used in
+        television cartoons and motion graphics. 3D animation on the other hand involves the use of
+        computer-generated images to create realistic-looking animations that can be viewed from any
+        angle. It is commonly used in films, video games, and augmented reality experiences. It is
+        also common to combine 2D and 3D cgi animation techniques to create your video, depending on
+        the requirements of the project.
+      </p>
+    </div>
+    <div class="text">
+      How do you approach storytelling in
+      your animations?
+    </div>
+    <div class="text-box">
+      <p>
+        We believe that storytelling is at the heart of every great
+        animation. We approach storytelling by first understanding your goals and creative objectives.
+        From there, we work to develop a compelling narrative that captures the viewer &#x27;s
+        attention and drives engagement. We use a range of storytelling techniques, including
+        character development, plot twists, and emotional cues, to create a powerful story that
+        resonates with your audience.
+      </p>
+    </div>
+    <div class="text">
+      Can you work within my budget?
+    </div>
+    <div class="text-box">
+      <p>
+        Yes, we can absolutely work within your budget! We
+        understand that every project is unique, and we &#x27;ll work with you to find a solution that
+        meets your needs and fits your budget. Our team can help you identify ways to optimise the
+        animation process, reduce costs, and achieve your goals.
+      </p>
+    </div>
+  </section>
+  <section class="six">
+    <div class="content-left">
+      <h3>
+        Our Clients<span class="full-stop">.</span>
+      </h3>
+    </div>
+    <div class="content-right">
+      <h2>We work with household names, trusted by consumers around the world to make their lives easier, funner,
+        tastier, smoother and all round better.</h2>
+      <p>
+        By staying ahead of the latest technologies and innovations in digital design and marketing, we produce
+        captivating animations that open doors to measurable impact.<br />
+        <br />
+        <br />
+        <a href="#" class="reverse">Request our credentials</a>
+      </p>
+    </div>
+    <div class="logo">
+      <div class="logo-box">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </div>
+      <div class="logo-box">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </div>
+      <div class="logo-box"> 
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+      </div>
+    </div>
+  </section>
+  <footer class="seven">
+    <div class="content-left">
+      <h3>
+        Let &#x27;s Talk<span class="full-stop">.</span>
+      </h3>
+    </div>
+    <div class="content-right">
+      <h2>Ready to make some magic? Send us a message or give us a call to get the ball rolling!</h2>
+      <p>
+        <a href="#">Get in touch</a>
+      </p>
+    </div>
+    <div class="footer-menu">
+      <div class="footer-box">
+        <p id="w-node">
+          8-9 Ship Street,<br />
+          Brighton BN1 1AD<br />
+          ‍<br />
+          71-75 Shelton St,<br />
+          London WC2H 9JQ<br />
+          <br />
+          <a href="#" class="footer-link">hello@moveanimation.com</a>
+          <br />+44 (0) 1273 901 972
+        </p>
+      </div>
+      <div class="footer-box">
+        <p id="w-node">
+          <a href="#" class="terms-link">Privacy Policy</a>
+          <a href="#" class="terms-link">Terms of Business</a>
+        </p>
+        <a id="w-node" href="#"
+          class="footer-link credit">Site: Guy Powell</a>
+        <p id="w-node">
+          © 2023 Move Animation Ltd. All rights reserved.<br />
+        </p>
+        <p id="w-node" class="f-services">
+          2D &amp;3D Animation<br />
+          Motion Graphics<br />
+          Concept Development<br />
+          Storyboards<br />
+          Character Design<br />
+          AR Apps <br />
+          Motion Design<br />Explainer Videos
+        </p>
+      </div>
+      <div class="footer-box">
+        <p id="w-node" class="f-ourwork">
+          <a href="#" class="footer-link">Projects</a>
+          <br />
+          <a href="#" class="footer-link">Acast</a>
+          <br />
+          <a href="#" class="footer-link">HSBC</a>
+          <br />
+          <a href="#" class="footer-link">Spotify</a>
+          <br />
+          <a href="#" class="footer-link">Toyota</a>
+          <br />
+          <a href="#" class="footer-link">About Us</a>
+          <br />
+          <a href="#" class="footer-link">Contact</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-buttom">
+      <ul>
+        <li>
+          <h4>privacy policy terms of business</h4>
+          <p>sit: guy powell</p>
+        </li>
+        <li>
+          <p>2023 move animation ltd. all rights reserved</p>
+        </li>
+        <li class="buttom">
+          <ul class="logo-box2">
+            <li>v</li>
+            <li>in</li>
+            <li>inster</li>
+            <li>tw</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 
 </html>

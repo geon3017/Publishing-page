@@ -1,1 +1,162 @@
 @charset "utf-8";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  box-sizing: border-box;
+}
+header .main-log{
+  padding: 10px 50px 30px 0;
+}
+header .main-log ul{
+  display: flex;
+  justify-content: space-between;
+
+}
+header .main-log ul li img{
+  width: 175px;
+}
+header .hero-text{
+  margin: 300px 69.672px;
+}
+header .hero-text .paragraph-header{
+  z-index: 1;
+  font-size: 90px;
+  margin-bottom: 40px;
+  line-height: 84px;
+  /* letter-spacing: 0.2em; */
+  text-align: center;
+  font-weight: 800;
+}
+header .hero-text .small-h1{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 22%;
+  margin-right: 22%;
+  /* position: relative; */
+}
+
+/* 모양 이미지*/
+header .one-image{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* 핑크 삼각형 */
+header .one-image .box1{
+  width: 100%;
+  z-index: -11;
+  position: relative;
+  /* top: 40vw; */
+  left: 23vw;
+  bottom: 10vw;
+  transform: rotate(47deg);
+  width: 50vw;
+}
+/* 노랑왕관 */
+header .one-image .box2{
+  width: 100%;
+  z-index: -1;
+  position: relative;
+  /* top: 3vw; */
+  right: 23vw;
+  bottom: 100vw;
+}
+/* 파란원 */
+header .one-image .box3{
+  width: 150%;
+  z-index: -1;
+  position: absolute;
+  top: 7.5vw;
+  left: 45vw;
+}
+/* 태양 모양 */
+header .one-image .box4{
+width: 315px;
+position: absolute;
+top: 9vw;
+left: 70vw;
+z-index: -111;
+transform: rotate(-18deg);
+}
+
+/* 닌텐도 */
+.nintendo-box .nintendo{
+  z-index: 1;
+  font-size: 90px;
+  margin-bottom: 40px;
+  line-height: 84px;
+  /* letter-spacing: 0.2em; */
+  text-align: center;
+  font-weight: 800;
+}
+.nintendo-box .Mario{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 22%;
+  margin-right: 22%;
+  position: relative;
+
+}
+/* acast */
+.acast-box .acast{
+  z-index: 1;
+  font-size: 90px;
+  margin-bottom: 40px;
+  line-height: 84px;
+  /* letter-spacing: 0.2em; */
+  text-align: center;
+  font-weight: 800;
+}
+.podcasts{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 22%;
+  margin-right: 22%;
+  position: relative;
+}
+/* 레고 */
+.lego-box .lego{
+  z-index: 1;
+  font-size: 90px;
+  margin-bottom: 40px;
+  line-height: 84px;
+  /* letter-spacing: 0.2em; */
+  text-align: center;
+  font-weight: 800;
+}
+.lego-life{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 22%;
+  margin-right: 22%;
+  position: relative;
+}
+/* toyota */
+.toyota-box .toyota{
+  z-index: 1;
+  font-size: 90px;
+  margin-bottom: 40px;
+  line-height: 84px;
+  /* letter-spacing: 0.2em; */
+  text-align: center;
+  font-weight: 800;
+}
+.easy{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 22%;
+  margin-right: 22%;
+  position: relative;
+}
