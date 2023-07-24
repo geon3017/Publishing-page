@@ -73,7 +73,7 @@ let t1 = gsap.to('.mario-logo', {
     scrub: 2,
   },
 });
-
+// 초록색 반원
 gsap.to('.grsc', {
   y: 500,
   scrollTrigger: {
@@ -83,9 +83,10 @@ gsap.to('.grsc', {
     start: '10',
     end: '0',
     scrub: 2,
-  },
+  }, 
 });
 
+// 쿠파아들
 gsap.to('.dino', {
   x: -650,
   scrollTrigger: {
@@ -97,6 +98,7 @@ gsap.to('.dino', {
     scrub: 1,
   },
 });
+// 노란 삼각형
 gsap.to('.try', {
   x: -650,
   scrollTrigger: {
@@ -109,11 +111,12 @@ gsap.to('.try', {
   },
 });
 
+// Acast
 gsap.to('.c-pink', {
-  y: 500,
+  y: -500,
   scrollTrigger: {
     trigger: '.container2',
-    pin: 'acast-box',
+    pin: 'container3',
     start: 'top top',
     end: '0',
     scrub: 1.5,

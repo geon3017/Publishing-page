@@ -6,3 +6,5 @@
 
 http://www.noveltech.co.kr/
 https://www.samsung.com/sec/sustainability/main/
+
+## 230724 작업중

@@ -77,7 +77,7 @@ header .one-image .box2 {
   right: 23vw;
   bottom: 100vw;
 }
-/* 파란원 */
+/* 파란 원 */
 header .one-image .box3 {
   width: 150%;
   z-index: -1;
@@ -124,9 +124,9 @@ header .one-image .box4 {
 }
 /* 마리오 레고 */
 .two-image .mario-logo {
-  width: 43vw;
+  width: 35vw;
   position: absolute;
-  top: 75vw;
+  top: 68vw;
   left: 2vw;
   z-index: -1;
 }
@@ -183,7 +183,7 @@ header .one-image .box4 {
 .c-pink {
   width: 30vw;
   position: absolute;
-  top: -38vw;
+  top: -15vw;
   left: 25vw;
 }
 /* 노란색 삼각형 */
