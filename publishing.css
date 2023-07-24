@@ -4,27 +4,31 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-html{
+html,
+body {
   overflow-x: hidden;
 }
-body{
-  box-sizing: border-box;
+header {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
-header .main-log{
+header .main-log {
   padding: 10px 50px 30px 0;
 }
-header .main-log ul{
+header .main-log ul {
   display: flex;
   justify-content: space-between;
-
 }
-header .main-log ul li img{
+
+header .main-log ul li img {
   width: 175px;
 }
-header .hero-text{
-  margin: 300px 69.672px;
+header .hero-text {
+  margin: 250px 69.672px;
 }
-header .hero-text .paragraph-header{
+header .hero-text .paragraph-header {
   z-index: 1;
   font-size: 90px;
   margin-bottom: 40px;
@@ -33,7 +37,7 @@ header .hero-text .paragraph-header{
   text-align: center;
   font-weight: 800;
 }
-header .hero-text .small-h1{
+header .hero-text .small-h1 {
   text-align: center;
   font-size: 24px;
   font-weight: 400;
@@ -41,54 +45,67 @@ header .hero-text .small-h1{
   margin-right: 22%;
   /* position: relative; */
 }
+header .src {
+  width: 100%;
+  height: auto;
+}
 
 /* 모양 이미지*/
-header .one-image{
+header .one-image {
   margin: 0;
   padding: 0;
   width: 100%;
   box-sizing: border-box;
 }
 /* 핑크 삼각형 */
-header .one-image .box1{
+header .one-image .box1 {
   width: 100%;
-  z-index: -11;
+  z-index: -111;
   position: relative;
   /* top: 40vw; */
   left: 23vw;
   bottom: 10vw;
-  transform: rotate(47deg);
+  transform: rotate(50deg);
   width: 50vw;
 }
 /* 노랑왕관 */
-header .one-image .box2{
+header .one-image .box2 {
   width: 100%;
-  z-index: -1;
+  z-index: -111;
   position: relative;
   /* top: 3vw; */
   right: 23vw;
   bottom: 100vw;
 }
 /* 파란원 */
-header .one-image .box3{
+header .one-image .box3 {
   width: 150%;
   z-index: -1;
   position: absolute;
-  top: 7.5vw;
+  top: -15vw;
   left: 45vw;
 }
 /* 태양 모양 */
-header .one-image .box4{
-width: 315px;
-position: absolute;
-top: 9vw;
-left: 70vw;
-z-index: -111;
-transform: rotate(-18deg);
+header .one-image .box4 {
+  width: 315px;
+  position: absolute;
+  top: -15vw;
+  left: 70vw;
+  z-index: -11;
+  transform: rotate(-18deg);
 }
 
 /* 닌텐도 */
-.nintendo-box .nintendo{
+.container2 {
+  position: absolute;
+  top: 0;
+}
+.nintendo-box {
+  position: absolute;
+  top: 28vw;
+  left: 38vw;
+}
+.nintendo-box .nintendo {
   z-index: 1;
   font-size: 90px;
   margin-bottom: 40px;
@@ -97,17 +114,54 @@ transform: rotate(-18deg);
   text-align: center;
   font-weight: 800;
 }
-.nintendo-box .Mario{
+.nintendo-box .Mario {
   text-align: center;
   font-size: 24px;
   font-weight: 400;
   margin-left: 22%;
   margin-right: 22%;
   position: relative;
+}
+/* 마리오 레고 */
+.two-image .mario-logo {
+  width: 43vw;
+  position: absolute;
+  top: 75vw;
+  left: 2vw;
+  z-index: -1;
+}
+/* 쿠바 아들 */
+.two-image .dino {
+  width: 28vw;
+  position: absolute;
+  top: 25vw;
+  left: 100vw;
+}
+/* 노랑 삼각형 */
+.two-image .try {
+  width: 25vw;
+  position: absolute;
+  top: 25vw;
+  left: 95vw;
+  transform: rotate(140deg);
+  z-index: -1;
+}
+/* 초록색 반달 */
+.two-image .grsc {
+  width: 29vw;
+  position: absolute;
+  top: -30vw;
+  left: 28vw;
+  transform: rotate(160deg);
+  z-index: -11;
+}
 
-}
 /* acast */
-.acast-box .acast{
+.acast-box {
+  width: 100%;
+  height: 100vh;
+}
+.acast-box .acast {
   z-index: 1;
   font-size: 90px;
   margin-bottom: 40px;
@@ -116,16 +170,47 @@ transform: rotate(-18deg);
   text-align: center;
   font-weight: 800;
 }
-.podcasts{
+.podcasts {
   text-align: center;
   font-size: 24px;
   font-weight: 400;
   margin-left: 22%;
   margin-right: 22%;
   position: relative;
+}
+
+/* 핑크 원 */
+.c-pink {
+  width: 30vw;
+  position: absolute;
+  top: -38vw;
+  left: 25vw;
+}
+/* 노란색 삼각형 */
+.tr-yell {
+  width: 30vw;
+  position: absolute;
+  top: 12.5vw;
+  left: -5vw;
+}
+/* 사람 왼쪽사람 */
+.man {
+  width: 35vw;
+  position: absolute;
+  top: 1vw;
+}
+/* 사람 오른쪽사람 */
+.woman {
+  width: 35vw;
+  position: absolute;
+  top: -12vw;
+  left: 65vw;
 }
 /* 레고 */
-.lego-box .lego{
+.lego-box {
+  height: 100vh;
+}
+.lego-box .lego {
   z-index: 1;
   font-size: 90px;
   margin-bottom: 40px;
@@ -134,7 +219,7 @@ transform: rotate(-18deg);
   text-align: center;
   font-weight: 800;
 }
-.lego-life{
+.lego-life {
   text-align: center;
   font-size: 24px;
   font-weight: 400;
@@ -143,7 +228,7 @@ transform: rotate(-18deg);
   position: relative;
 }
 /* toyota */
-.toyota-box .toyota{
+.toyota-box .toyota {
   z-index: 1;
   font-size: 90px;
   margin-bottom: 40px;
@@ -152,7 +237,7 @@ transform: rotate(-18deg);
   text-align: center;
   font-weight: 800;
 }
-.easy{
+.easy {
   text-align: center;
   font-size: 24px;
   font-weight: 400;
