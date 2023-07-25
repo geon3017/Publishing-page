@@ -57,7 +57,16 @@ gsap.to('.box4', {
 // gsap.to('.hero-text'){
 
 // }
-
+gsap.from('.nintendo-box', {
+  opacity: 0,
+  duration: 1,
+  scrollTrigger: {
+    trigger: '.container',
+    pin: '.main-box',
+    start: '200',
+    end: '0',
+  },
+});
 let t1 = gsap.to('.mario-logo', {
   y: -1250,
   scrollTrigger: {

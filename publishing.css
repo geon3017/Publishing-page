@@ -107,7 +107,7 @@ header .one-image .box4 {
   position: absolute;
   top: 20vw;
   left: 38vw;
-  z-index: 1;
+  z-index: -11;
 }
 /* 글씨 */
 .nintendo-box .nintendo {
