@@ -26,14 +26,14 @@ header .main-log ul li img {
   width: 175px;
 }
 header .hero-text {
-  margin: 250px 69.672px;
+  text-align: center;
+  margin: 250px 0;
 }
 header .hero-text .paragraph-header {
-  z-index: 1;
+  z-index: -1;
   font-size: 90px;
   margin-bottom: 40px;
   line-height: 84px;
-  /* letter-spacing: 0.2em; */
   text-align: center;
   font-weight: 800;
 }
@@ -45,11 +45,11 @@ header .hero-text .small-h1 {
   margin-right: 22%;
   /* position: relative; */
 }
-header .src {
-  width: 100%;
-  height: auto;
-}
 
+header .scr {
+  width: 100%;
+  height: 500px;
+}
 /* 모양 이미지*/
 header .one-image {
   margin: 0;
@@ -64,7 +64,7 @@ header .one-image .box1 {
   position: relative;
   /* top: 40vw; */
   left: 23vw;
-  bottom: 10vw;
+  bottom: 25vw;
   transform: rotate(50deg);
   width: 50vw;
 }
@@ -74,16 +74,16 @@ header .one-image .box2 {
   z-index: -111;
   position: relative;
   /* top: 3vw; */
-  right: 23vw;
-  bottom: 100vw;
+  right: 21.5vw;
+  bottom: 115vw;
 }
 /* 파란 원 */
 header .one-image .box3 {
   width: 150%;
-  z-index: -1;
+  z-index: 11;
   position: absolute;
-  top: -15vw;
-  left: 45vw;
+  top: -13vw;
+  left: 45.5vw;
 }
 /* 태양 모양 */
 header .one-image .box4 {
@@ -91,24 +91,28 @@ header .one-image .box4 {
   position: absolute;
   top: -15vw;
   left: 70vw;
-  z-index: -11;
+  z-index: 1;
   transform: rotate(-18deg);
 }
 
 /* 닌텐도 */
 .container2 {
-  position: absolute;
+  position: fixed;
   top: 0;
+  left: 0;
+  height: auto;
 }
+
 .nintendo-box {
   position: absolute;
-  top: 28vw;
+  top: 20vw;
   left: 38vw;
-}
-.nintendo-box .nintendo {
   z-index: 1;
+}
+/* 글씨 */
+.nintendo-box .nintendo {
   font-size: 90px;
-  margin-bottom: 40px;
+  /* margin-top: 1vw; */
   line-height: 84px;
   /* letter-spacing: 0.2em; */
   text-align: center;
@@ -118,15 +122,14 @@ header .one-image .box4 {
   text-align: center;
   font-size: 24px;
   font-weight: 400;
-  margin-left: 22%;
-  margin-right: 22%;
   position: relative;
+  width: 18vw;
 }
 /* 마리오 레고 */
 .two-image .mario-logo {
-  width: 35vw;
+  width: 43vw;
   position: absolute;
-  top: 68vw;
+  top: 69vw;
   left: 2vw;
   z-index: -1;
 }
@@ -134,7 +137,7 @@ header .one-image .box4 {
 .two-image .dino {
   width: 28vw;
   position: absolute;
-  top: 25vw;
+  top: 22vw;
   left: 100vw;
 }
 /* 노랑 삼각형 */
@@ -142,7 +145,7 @@ header .one-image .box4 {
   width: 25vw;
   position: absolute;
   top: 25vw;
-  left: 95vw;
+  left: 94vw;
   transform: rotate(140deg);
   z-index: -1;
 }
@@ -150,16 +153,20 @@ header .one-image .box4 {
 .two-image .grsc {
   width: 29vw;
   position: absolute;
-  top: -30vw;
+  top: -28vw;
   left: 28vw;
   transform: rotate(160deg);
   z-index: -11;
 }
 
 /* acast */
+.container3 {
+  position: fixed;
+  top: 0;
+}
 .acast-box {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .acast-box .acast {
   z-index: 1;
@@ -183,32 +190,40 @@ header .one-image .box4 {
 .c-pink {
   width: 30vw;
   position: absolute;
-  top: -15vw;
+  top: -50vw;
   left: 25vw;
+  z-index: 111;
 }
 /* 노란색 삼각형 */
 .tr-yell {
   width: 30vw;
   position: absolute;
-  top: 12.5vw;
-  left: -5vw;
+  top: 29vw;
+  left: -35vw;
+  transform: rotate(-1deg);
 }
 /* 사람 왼쪽사람 */
 .man {
   width: 35vw;
   position: absolute;
-  top: 1vw;
+  top: 19vw;
+  left: -30vw;
 }
 /* 사람 오른쪽사람 */
 .woman {
   width: 35vw;
   position: absolute;
-  top: -12vw;
-  left: 65vw;
+  top: 8vw;
+  left: 102vw;
 }
 /* 레고 */
+.container4 {
+  position: fixed;
+  top: 0;
+}
 .lego-box {
-  height: 100vh;
+  position: absolute;
+  /* height: 100vh; */
 }
 .lego-box .lego {
   z-index: 1;
@@ -227,7 +242,44 @@ header .one-image .box4 {
   margin-right: 22%;
   position: relative;
 }
+.four-image {
+  position: absolute;
+  top: 0;
+}
+.red-c {
+  width: 38vw;
+  position: absolute;
+  top: 15vw;
+  left: -50vw;
+}
+.lego-red {
+  width: 32vw;
+  position: absolute;
+  top: 7vw;
+  left: -40vw;
+}
+.lego-blue {
+  width: 55vw;
+  position: absolute;
+  top: 5vw;
+  left: 140vw;
+  bottom: 0;
+}
+.tr-bl {
+  width: 30vw;
+  position: absolute;
+  top: 53vw;
+  left: 40vw;
+  transform: rotate(-45deg);
+}
 /* toyota */
+.container5 {
+  position: fixed;
+  top: 0;
+}
+.toyota-box {
+  position: absolute;
+}
 .toyota-box .toyota {
   z-index: 1;
   font-size: 90px;
@@ -244,4 +296,38 @@ header .one-image .box4 {
   margin-left: 22%;
   margin-right: 22%;
   position: relative;
+}
+
+.vespa {
+  width: 20vw;
+  position: absolute;
+  top: 23vw;
+  left: 158vw;
+}
+.red-car {
+  width: 42vw;
+  position: absolute;
+  top: 24vw;
+  left: 160vw;
+  z-index: -1;
+}
+.pink-1 {
+  z-index: -11;
+  width: 35vw;
+  position: absolute;
+  left: 130vw;
+  top: 8.8vw;
+}
+.green-1 {
+  width: 35vw;
+  position: absolute;
+  top: -9vw;
+  left: -33vw;
+  transform: rotate(-150deg);
+}
+.asset {
+  width: 33vw;
+  position: absolute;
+  top: -2vw;
+  left: -70vw;
 }

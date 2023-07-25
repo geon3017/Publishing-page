@@ -8,3 +8,5 @@ http://www.noveltech.co.kr/
 https://www.samsung.com/sec/sustainability/main/
 
 ## 230724 작업중
+## 230725 메인 스크롤 이벤트 거의 완성 텍스트 작업중
+## gasp 플러그인으로 만들려고 하니깐 어렵다... 그래도 해냈다.
