@@ -12,6 +12,7 @@ gsap.to('.box1, .box2', {
     smooth: 3,
   },
 });
+
 // 왕관
 gsap.to('.box2', {
   x: -300,
@@ -26,6 +27,7 @@ gsap.to('.box2', {
     smooth: 3,
   },
 });
+
 // 파란원
 gsap.to('.box3', {
   x: 680,
@@ -40,6 +42,7 @@ gsap.to('.box3', {
     smooth: 3,
   },
 });
+
 // 태양
 gsap.to('.box4', {
   scale: 15,
@@ -53,20 +56,8 @@ gsap.to('.box4', {
     smooth: 3,
   },
 });
-// 마리오
-// gsap.to('.hero-text'){
 
-// }
-gsap.from('.nintendo-box', {
-  opacity: 0,
-  duration: 1,
-  scrollTrigger: {
-    trigger: '.container',
-    pin: '.main-box',
-    start: '200',
-    end: '0',
-  },
-});
+// 마리오
 let t1 = gsap.to('.mario-logo', {
   y: -1250,
   scrollTrigger: {
@@ -91,7 +82,7 @@ gsap.to('.mario-logo', {
 });
 // 초록색 반원
 let t2 = gsap.to('.grsc', {
-  y: 300,
+  y: 400,
   scrollTrigger: {
     trigger: '.container',
     pin: '.container2',
@@ -127,7 +118,7 @@ gsap.to('.dino', {
 });
 // 두번째 모션
 gsap.to('.dino', {
-  x: 600,
+  y: 500,
   scrollTrigger: {
     trigger: '.container',
     pin: '.container2',
@@ -152,7 +143,7 @@ gsap.to('.try', {
 });
 // 두번째 모션
 gsap.to('.try', {
-  x: 600,
+  y: 500,
   scrollTrigger: {
     trigger: '.container',
     pin: '.container2',
@@ -176,7 +167,7 @@ gsap.to('.c-pink', {
   },
 });
 gsap.to('.c-pink', {
-  y: -510,
+  x: 1270,
   scrollTrigger: {
     trigger: '.container',
     pin: 'container3',
@@ -197,7 +188,7 @@ gsap.to('.man, .tr-yell', {
   },
 });
 gsap.to('.man', {
-  x: -500,
+  y: 550,
   scrollTrigger: {
     trigger: '.container',
     pin: 'container3',
@@ -289,6 +280,7 @@ gsap.to('.tr-bl', {
     scrub: 2,
   },
 });
+// assst
 gsap.to('.green-1', {
   x: 580,
   scrollTrigger: {
@@ -299,12 +291,34 @@ gsap.to('.green-1', {
     scrub: 2,
   },
 });
+// 두번째 모션
+gsap.to('.green-1', {
+  y: -650,
+  scrollTrigger: {
+    trigger: '.container',
+    pin: 'container5',
+    start: '1300',
+    end: '0',
+    scrub: 3,
+  },
+});
 gsap.to('.asset', {
   x: 1350,
   scrollTrigger: {
     trigger: '.container',
     pin: 'container5',
     start: '1100',
+    end: '0',
+    scrub: 2,
+  },
+});
+// 두번째 모션
+gsap.to('.asset', {
+  y: 1350,
+  scrollTrigger: {
+    trigger: '.container',
+    pin: 'container5',
+    start: '1300',
     end: '0',
     scrub: 2,
   },
@@ -319,12 +333,34 @@ gsap.to('.pink-1', {
     scrub: 2,
   },
 });
+// 두번째 모션
+gsap.to('.pink-1', {
+  y: -760,
+  scrollTrigger: {
+    trigger: '.container',
+    pin: 'container5',
+    start: '1300',
+    end: '0',
+    scrub: 2,
+  },
+});
 gsap.to('.red-car', {
   x: -1800,
   scrollTrigger: {
     trigger: '.container',
     pin: 'container5',
     start: '1100',
+    end: '0',
+    scrub: 2,
+  },
+});
+// 두번 째 모션
+gsap.to('.red-car', {
+  y: 500,
+  scrollTrigger: {
+    trigger: '.container',
+    pin: 'container5',
+    start: '1300',
     end: '0',
     scrub: 2,
   },
@@ -339,3 +375,15 @@ gsap.to('.vespa', {
     scrub: 4,
   },
 });
+// 두번째 모션
+gsap.to('.vespa', {
+  y: 500,
+  scrollTrigger: {
+    trigger: '.container',
+    pin: 'container5',
+    start: '1300',
+    end: '0',
+    scrub: 4,
+  },
+});
+// text

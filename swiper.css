@@ -1,0 +1,39 @@
+.swiper {
+  width: 65%;
+  height: 100%;
+  margin-top: 40px;
+  margin-left: 30vw;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  margin: 0 auto;
+  width: 20vw;
+  object-fit: cover;
+  padding-bottom: 40px;
+}
+.swiper-slide .good-box {
+  height: 450px;
+  font-size: 24px;
+}
+.swiper-slide .good-box p {
+  width: 45.5vw;
+  padding-bottom: 20px;
+}
+.swiper-slide .good-box .user-name-t6 {
+  font-size: 18px;
+  padding-bottom: 16px;
+}
+.swiper-slide .good-box .company-name-t6 {
+  font-size: 15px;
+  font-style: italic;
+}

@@ -7,6 +7,7 @@
 html,
 body {
   overflow-x: hidden;
+  font-family: 'Roboto Condensed';
 }
 header {
   width: 100%;
@@ -28,28 +29,35 @@ header .main-log ul li img {
 header .hero-text {
   text-align: center;
   margin: 250px 0;
+  position: relative;
+  top: -2vw;
+  z-index: -11;
 }
+
+/* text */
 header .hero-text .paragraph-header {
   z-index: -1;
   font-size: 90px;
-  margin-bottom: 40px;
+  margin-bottom: 28px;
   line-height: 84px;
-  text-align: center;
   font-weight: 800;
 }
+
+/* text */
 header .hero-text .small-h1 {
   text-align: center;
   font-size: 24px;
   font-weight: 400;
-  margin-left: 22%;
-  margin-right: 22%;
+  margin-left: 31.5vw;
   /* position: relative; */
+  width: 35vw;
 }
 
 header .scr {
   width: 100%;
   height: 500px;
 }
+
 /* 모양 이미지*/
 header .one-image {
   margin: 0;
@@ -57,6 +65,7 @@ header .one-image {
   width: 100%;
   box-sizing: border-box;
 }
+
 /* 핑크 삼각형 */
 header .one-image .box1 {
   width: 100%;
@@ -68,6 +77,7 @@ header .one-image .box1 {
   transform: rotate(50deg);
   width: 50vw;
 }
+
 /* 노랑왕관 */
 header .one-image .box2 {
   width: 100%;
@@ -77,21 +87,23 @@ header .one-image .box2 {
   right: 21.5vw;
   bottom: 115vw;
 }
+
 /* 파란 원 */
 header .one-image .box3 {
   width: 150%;
-  z-index: 11;
+  z-index: -1;
   position: absolute;
   top: -13vw;
   left: 45.5vw;
 }
+
 /* 태양 모양 */
 header .one-image .box4 {
   width: 315px;
   position: absolute;
   top: -15vw;
   left: 70vw;
-  z-index: 1;
+  z-index: -11;
   transform: rotate(-18deg);
 }
 
@@ -107,32 +119,39 @@ header .one-image .box4 {
   position: absolute;
   top: 20vw;
   left: 38vw;
-  z-index: -11;
+  z-index: -111;
+  /* opacity: 0; */
+  color: #fff;
 }
-/* 글씨 */
+
+/* text */
 .nintendo-box .nintendo {
   font-size: 90px;
-  /* margin-top: 1vw; */
+  margin-top: 3vw;
   line-height: 84px;
-  /* letter-spacing: 0.2em; */
   text-align: center;
   font-weight: 800;
+  margin-left: 2.2vw;
 }
 .nintendo-box .Mario {
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 400;
   position: relative;
   width: 18vw;
+  margin-top: 10px;
+  margin-left: 43px;
 }
+
 /* 마리오 레고 */
 .two-image .mario-logo {
-  width: 43vw;
+  width: 44.5vw;
   position: absolute;
   top: 69vw;
   left: 2vw;
   z-index: -1;
 }
+
 /* 쿠바 아들 */
 .two-image .dino {
   width: 28vw;
@@ -140,6 +159,7 @@ header .one-image .box4 {
   top: 22vw;
   left: 100vw;
 }
+
 /* 노랑 삼각형 */
 .two-image .try {
   width: 25vw;
@@ -149,6 +169,7 @@ header .one-image .box4 {
   transform: rotate(140deg);
   z-index: -1;
 }
+
 /* 초록색 반달 */
 .two-image .grsc {
   width: 29vw;
@@ -166,12 +187,17 @@ header .one-image .box4 {
 }
 .acast-box {
   width: 100%;
-  /* height: 100vh; */
+  margin-left: 28vw;
+  margin-top: 23vw;
+  /* opacity: 0; */
+  color: #fff;
 }
+
+/* text */
 .acast-box .acast {
   z-index: 1;
   font-size: 90px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   line-height: 84px;
   /* letter-spacing: 0.2em; */
   text-align: center;
@@ -179,7 +205,7 @@ header .one-image .box4 {
 }
 .podcasts {
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 400;
   margin-left: 22%;
   margin-right: 22%;
@@ -194,6 +220,7 @@ header .one-image .box4 {
   left: 25vw;
   z-index: 111;
 }
+
 /* 노란색 삼각형 */
 .tr-yell {
   width: 30vw;
@@ -202,6 +229,7 @@ header .one-image .box4 {
   left: -35vw;
   transform: rotate(-1deg);
 }
+
 /* 사람 왼쪽사람 */
 .man {
   width: 35vw;
@@ -209,6 +237,7 @@ header .one-image .box4 {
   top: 19vw;
   left: -30vw;
 }
+
 /* 사람 오른쪽사람 */
 .woman {
   width: 35vw;
@@ -216,6 +245,7 @@ header .one-image .box4 {
   top: 8vw;
   left: 102vw;
 }
+
 /* 레고 */
 .container4 {
   position: fixed;
@@ -223,24 +253,29 @@ header .one-image .box4 {
 }
 .lego-box {
   position: absolute;
+  top: 19.5vw;
+  left: 42vw;
+  color: #fff;
   /* height: 100vh; */
+  /* opacity: 0; */
 }
+
+/* text */
 .lego-box .lego {
-  z-index: 1;
   font-size: 90px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   line-height: 84px;
   /* letter-spacing: 0.2em; */
   text-align: center;
   font-weight: 800;
+  margin-left: 1.4vw;
 }
 .lego-life {
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 400;
-  margin-left: 22%;
-  margin-right: 22%;
-  position: relative;
+  width: 18vw;
+  margin-left: -2vw;
 }
 .four-image {
   position: absolute;
@@ -279,23 +314,30 @@ header .one-image .box4 {
 }
 .toyota-box {
   position: absolute;
+  top: 20.5vw;
+  left: 41vw;
+  /* opacity: 0; */
+  color: #fff;
 }
+
+/* text */
 .toyota-box .toyota {
   z-index: 1;
   font-size: 90px;
   margin-bottom: 40px;
   line-height: 84px;
   /* letter-spacing: 0.2em; */
-  text-align: center;
   font-weight: 800;
+  margin-left: 1.7vw;
 }
 .easy {
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 400;
-  margin-left: 22%;
-  margin-right: 22%;
+  /* margin-left: 22%;
+  margin-right: 22%; */
   position: relative;
+  width: 17vw;
 }
 
 .vespa {
@@ -330,4 +372,116 @@ header .one-image .box4 {
   position: absolute;
   top: -2vw;
   left: -70vw;
+}
+
+/* one */
+.one {
+  width: 100%;
+  position: absolute;
+  top: 2200px;
+  background-color: antiquewhite;
+  padding-bottom: 140px;
+  padding-left: 152px;
+  padding-right: 152px;
+}
+.one .content-left {
+  display: flex;
+  justify-content: space-between;
+  padding: 140px 0;
+}
+.one .content-left h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+.one .content-left h3 {
+  font-size: 30px;
+}
+.content-right {
+  font-size: 24px;
+  width: 70%;
+  padding-right: 5vw;
+}
+
+/* 캐릭터 이미지 */
+.image {
+  margin-bottom: 50px;
+}
+.img-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.img-box li h3 {
+  font-size: 28px;
+  margin-top: 13px;
+  text-transform: capitalize;
+}
+.img-box li p {
+  font-size: 21px;
+  margin-top: 10px;
+}
+.img-box li img {
+  width: 95%;
+}
+.image a {
+  font-size: 22px;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+/* two */
+.two {
+  width: 100%;
+  position: absolute;
+  top: 4210px;
+  background-color: antiquewhite;
+  padding-top: 140px;
+  padding-left: 152px;
+  padding-right: 152px;
+}
+.two .content-left {
+  display: flex;
+  justify-content: space-between;
+}
+.two .content-left h3 {
+  font-size: 30px;
+}
+.two .content-right h2 {
+  /* width: 80%; */
+  font-size: 35px;
+  margin-bottom: 40px;
+  margin-left: 10vw;
+}
+
+/* three */
+.three {
+  width: 100%;
+  position: absolute;
+  top: 5060px;
+  background-color: antiquewhite;
+  padding-top: 140px;
+  padding-left: 152px;
+  padding-right: 152px;
+}
+.three .content-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 텍스트 */
+.three .text {
+  display: flex;
+  align-items: center;
+  background-color: #f8f3f1;
+  border-radius: 20px;
+  width: 420px;
+  height: 76px;
+  padding: 10px 20px;
+  font-size: 22px;
+}
+.three .text-box {
+  width: 342px;
+  font-size: 18px;
+  padding: 10px 10px 10px 20px;
+  margin-bottom: 24px;
 }
