@@ -7,10 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./common/minireset.min.css">
 
   <!-- Demo styles -->
   <style>
-    html,
+    .menu a{cursor:pointer;
+    background-color: antiquewhite;}
+    .menu .hide{display:none;
+    background-color: antiquewhite;}
+    /* html,
     body {
       position: relative;
       height: 100%;
@@ -48,13 +53,14 @@
 
     .swiper-slide .good-box p {
       width: 50vw;
-    }
+    } */
   </style>
+  <script src="./common/jquery-3.7.0.min.js"></script>
 </head>
 
 <body>
   <!-- Swiper -->
-  <div class="swiper mySwiper">
+  <!-- <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div class="good-box">
@@ -103,10 +109,10 @@
     <div class="swiper-pagination"></div>
   </div>
 
-  <!-- Swiper JS -->
+  <!- Swiper JS 
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
+   Initialize Swiper 
   <script>
     let swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
@@ -124,7 +130,40 @@
         prevEl: ".swiper-button-prev",
       },
     });
-  </script>
+  </script> -->
+  <div>
+    <ul>
+        <li class="menu">
+            <a> What types of animation do you specialise in?</a>
+            <ul class="hide">
+              <div class="text-box">
+                <p>We specialise in a variety of animated videos, including 2D
+                  animation, 3D animation (CGI), motion graphics, hand drawn, vector, and augmented reality (AR)
+                  apps. This covers tv adverts, childrens tv series, character animation, explainer videos,
+                  motion graphics, apps, games, special FX, product animations and social media animations to
+                  name just a few. Our skilled animators and production team can bring your ideas to life in the
+                  style and format that best suits your project &#x27;s goals.</p>
+              </div>
+            </ul>
+        </li>
+    </ul>
+</div>
+<script>
+  // html dom 이 다 로딩된 후 실행된다.
+  $(document).ready(function(){
+      // menu 클래스 바로 하위에 있는 a 태그를 클릭했을때
+      $(".menu>a").click(function(){
+          var submenu = $(this).next("ul");
+
+          // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
+          if( submenu.is(":visible") ){
+              submenu.slideUp();
+          }else{
+              submenu.slideDown();
+          }
+      });
+  });
+</script>
 </body>
 
 </html>

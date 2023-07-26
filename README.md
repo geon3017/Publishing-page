@@ -12,3 +12,4 @@ https://www.samsung.com/sec/sustainability/main/
 ## gasp 플러그인으로 만들려고 하니깐 어렵다... 그래도 해냈다.
 ## 폰트 추가 밑부분 작업 중 230726
 ## 작업중
+## 230726 설명란 나오기 연습함
