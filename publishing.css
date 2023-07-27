@@ -541,3 +541,32 @@ header .one-image .box4 {
   padding-left: 152px;
   padding-right: 152px;
 }
+.four .content-left {
+  display: flex;
+  justify-content: space-between;
+}
+.four .content-left h3 {
+  font-size: 30px;
+}
+.four .content-left h2 {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+.four .content-left p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.four .logo .logo-box {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  grid-column-gap: 16px;
+  grid-row-gap: 60px;
+  margin-top: 80px;
+  padding-top: 40px;
+  border-top: 2px solid rgba(234, 236, 239, 0.32);
+}
+.four .logo .logo-box img {
+  width: 150px;
+  height: 96px;
+}
