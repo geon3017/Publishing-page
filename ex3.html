@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>title</title>
+  <style>
+    header .navbar .popup-menu {
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      display: none;
+    }
+
+    header .navbar .popup-menu .bg {
+      background-color: #fff;
+      position: absolute;
+      top: 89px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    header .navbar .popup-menu .top-manu {
+      width: 100%;
+      position: absolute;
+      top: 110px;
+      left: 10px;
+    }
+
+    header .navbar .popup-menu .top-manu .popup-sub-menu {
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    header .navbar .popup-menu .top-manu .popup-sub-menu li {
+      font-size: 16px;
+      font-weight: 600;
+      padding: 8px 8px;
+      margin-left: 8px;
+    }
+
+    header .navbar .popup-menu .top-manu .popup-sub-menu img {
+      width: 22px;
+    }
+
+    header .navbar .popup-menu .top-manu .popup-main-menu li {
+      padding: 8px 12px;
+      font-size: 21px;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    header .navbar .navbar__button {
+      position: absolute;
+      right: 18px;
+      top: 18px;
+      display: none;
+    }
+
+    header .navbar .line div {
+      background-color: #000;
+      width: 32px;
+      height: 2px;
+      margin-top: 5px;
+      border-radius: 35px;
+      transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+    }
+
+    header .navbar #toggle-button {
+      display: none;
+    }
+
+    header .navbar #toggle-button:checked+.line .top {
+      transform: rotate(45deg);
+      margin-top: 12px;
+    }
+
+    header .navbar #toggle-button:checked+.line .middle {
+      transform: rotate(-45deg);
+      margin-top: -2px;
+    }
+
+    header .navbar #toggle-button:checked+.line .bottom {
+      transform: scale(0);
+      transform: scale(0);
+    }
+
+    header .navbar .navbar__button {
+      display: flex;
+    }
+
+    header .navbar .popup-menu.active {
+      display: flex;
+    }
+  </style>
+
+  <script src="./common/jquery-3.7.0.min.js"></script>
+</head>
+
+<body>
+  <div class="popup-menu">
+    <div class="bg"></div>
+    <div class="top-manu">
+      <ul class="popup-sub-menu">
+        <li><a href="javascript:void(0)">LOGIN</a></li>
+        <li><a href="javascript:void(0)">REGISTER</a></li>
+        <li>
+          <a href="https://www.instagram.com/accounts/login/?next=/kiafseoul/" target="_blabk"><img
+              src="./images/black_instagram.png" alt="instagram" /></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/KiafSeoul" target="_blank"><img src="./images/black_facebook.png"
+              alt="black_facebook" /></a>
+        </li>
+      </ul>
+      <ul class="popup-main-menu">
+        <li><a href="javascript:void(0)">About</a></li>
+        <li><a href="javascript:void(0)">Exhibitors</a></li>
+        <li><a href="javascript:void(0)">Insights</a></li>
+        <li><a href="javascript:void(0)">Partners</a></li>
+        <li><a href="javascript:void(0)">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="navbar__button">
+    <input id="toggle-button" type="checkbox" />
+    <label class="line" for="toggle-button">
+      <div class="top"></div>
+      <div class="middle"></div>
+      <div class="bottom"></div>
+    </label>
+  </div>
+  <script>
+    const toggleBtn = document.querySelector('#toggle-button');
+    const menu = document.querySelector('.popup-menu');
+
+    // 반응형 웹 햄버거 메뉴 클릭 시 메뉴 펼침, 숨김 처리
+    toggleBtn.addEventListener('click', () => {
+      menu.classList.toggle('active');
+    });
+  </script>
+</body>
+
+</html>

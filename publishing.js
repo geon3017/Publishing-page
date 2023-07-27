@@ -387,3 +387,15 @@ gsap.to('.vespa', {
   },
 });
 // text
+
+$(document).ready(function () {
+  $('span').click(function () {
+    var submenu = $(this).next('.text-box');
+    // 부드럽게
+    if (submenu.is(':visible')) {
+      submenu.slideUp();
+    } else {
+      submenu.slideDown();
+    }
+  });
+});

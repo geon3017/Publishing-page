@@ -11,10 +11,64 @@
 
   <!-- Demo styles -->
   <style>
-    .menu a{cursor:pointer;
-    background-color: antiquewhite;}
-    .menu .hide{display:none;
-    background-color: antiquewhite;}
+    /* .text {
+      margin-bottom: 30px;
+    }
+
+    .text span {
+      cursor: pointer;
+      background-color: antiquewhite;
+    }
+
+    .text .text-box {
+      display: none;
+      background-color: antiquewhite;
+    } */
+    .ex1 {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .exp {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .text {
+      display: flex;
+      /* flex-wrap: wrap; */
+      flex-direction: column;
+      align-items: center;
+      background-color: #f8f3f1;
+      border-radius: 20px;
+      width: 500px;
+      padding: 10px 20px;
+      font-size: 20px;
+      margin-top: 20px;
+      display: block;
+    }
+
+    .text-box {
+      display: none;
+      width: 342px;
+      font-size: 18px;
+      padding: 10px 10px 10px 20px;
+      margin-bottom: 24px;
+    }
+
+    .text span {
+      cursor: pointer;
+      /* display: block;
+      float: right; */
+    }
+
+    .exppp {
+      display: flex;
+    }
+
+
+
     /* html,
     body {
       position: relative;
@@ -131,39 +185,102 @@
       },
     });
   </script> -->
-  <div>
+  <!-- <div>
     <ul>
-        <li class="menu">
-            <a> What types of animation do you specialise in?</a>
-            <ul class="hide">
-              <div class="text-box">
-                <p>We specialise in a variety of animated videos, including 2D
-                  animation, 3D animation (CGI), motion graphics, hand drawn, vector, and augmented reality (AR)
-                  apps. This covers tv adverts, childrens tv series, character animation, explainer videos,
-                  motion graphics, apps, games, special FX, product animations and social media animations to
-                  name just a few. Our skilled animators and production team can bring your ideas to life in the
-                  style and format that best suits your project &#x27;s goals.</p>
-              </div>
-            </ul>
-        </li>
+      <li class="menu">
+        <a> What types of animation do you specialise in?</a>
+        <ul class="hide">
+          <div class="text-box">
+            <p>We specialise in a variety of animated videos, including 2D
+              animation, 3D animation (CGI), motion graphics, hand drawn, vector, and augmented reality (AR)
+              apps. This covers tv adverts, childrens tv series, character animation, explainer videos,
+              motion graphics, apps, games, special FX, product animations and social media animations to
+              name just a few. Our skilled animators and production team can bring your ideas to life in the
+              style and format that best suits your project &#x27;s goals.</p>
+          </div>
+        </ul>
+      </li>
     </ul>
-</div>
-<script>
-  // html dom 이 다 로딩된 후 실행된다.
-  $(document).ready(function(){
-      // menu 클래스 바로 하위에 있는 a 태그를 클릭했을때
-      $(".menu>a").click(function(){
-          var submenu = $(this).next("ul");
+  </div> -->
+  <div class="exppp">
+    <div class="exp">
 
-          // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
-          if( submenu.is(":visible") ){
-              submenu.slideUp();
-          }else{
-              submenu.slideDown();
-          }
+      <div class="text">
+        <p>
+          What types of animation do you specialise in?
+        </p>
+        <span>플러스</span>
+        <div class="text-box">
+          <p>We specialise in a variety of animated videos, including 2D
+            animation, 3D animation (CGI), motion graphics, hand drawn, vector, and augmented reality (AR)
+            apps. This covers tv adverts, childrens tv series, character animation, explainer videos,
+            motion graphics, apps, games, special FX, product animations and social media animations to
+            name just a few. Our skilled animators and production team can bring your ideas to life in the
+            style and format that best suits your project &#x27;s goals.</p>
+        </div>
+      </div>
+      <div class="text">
+        <p>
+          What types of animation do you specialise in?
+        </p>
+        <span>플러스</span>
+        <div class="text-box">
+          <p>We specialise in a variety of animated videos, including 2D
+            animation, 3D animation (CGI), motion graphics, hand drawn, vector, and augmented reality (AR)
+            apps. This covers tv adverts, childrens tv series, character animation, explainer videos,
+            motion graphics, apps, games, special FX, product animations and social media animations to
+            name just a few. Our skilled animators and production team can bring your ideas to life in the
+            style and format that best suits your project &#x27;s goals.</p>
+        </div>
+      </div>
+    </div>
+    <div class="ex1">
+
+      <div class="text">
+        <p>
+          What types of animation do you specialise in?
+        </p>
+        <span>플러스</span>
+        <div class="text-box">
+          <p>We specialise in a variety of animated videos, including 2D
+            animation, 3D animation (CGI), motion graphics, hand drawn, vector, and augmented reality (AR)
+            apps. This covers tv adverts, childrens tv series, character animation, explainer videos,
+            motion graphics, apps, games, special FX, product animations and social media animations to
+            name just a few. Our skilled animators and production team can bring your ideas to life in the
+            style and format that best suits your project &#x27;s goals.</p>
+        </div>
+      </div>
+      <div class="text">
+        <p>
+          What types of animation do you specialise in?
+        </p>
+        <span>플러스</span>
+        <div class="text-box">
+          <p>We specialise in a variety of animated videos, including 2D
+            animation, 3D animation (CGI), motion graphics, hand drawn, vector, and augmented reality (AR)
+            apps. This covers tv adverts, childrens tv series, character animation, explainer videos,
+            motion graphics, apps, games, special FX, product animations and social media animations to
+            name just a few. Our skilled animators and production team can bring your ideas to life in the
+            style and format that best suits your project &#x27;s goals.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $(document).ready(function () {
+      $('span').click(function () {
+        var submenu = $(this).next('.text-box');
+
+        // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
+        if (submenu.is(':visible')) {
+          submenu.slideUp();
+        } else {
+          submenu.slideDown();
+        }
       });
-  });
-</script>
+    });
+  </script>
 </body>
 
 </html>
