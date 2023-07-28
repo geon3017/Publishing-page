@@ -45,7 +45,8 @@ gsap.to('.box3', {
 
 // 태양
 gsap.to('.box4', {
-  scale: 15,
+  scale: 12,
+  x: -580,
   scrollTrigger: {
     trigger: '.container',
     pin: '.main-box',
@@ -75,7 +76,7 @@ gsap.to('.mario-logo', {
   scrollTrigger: {
     trigger: '.container',
     pin: 'container2',
-    start: '500',
+    start: '400',
     end: '0',
     scrub: 1.5,
   },
@@ -98,7 +99,7 @@ gsap.to('.grsc', {
   scrollTrigger: {
     trigger: '.container',
     pin: 'container2',
-    start: '500',
+    start: '400',
     end: '0',
     scrub: 1.5,
   },
@@ -123,7 +124,7 @@ gsap.to('.dino', {
     trigger: '.container',
     pin: '.container2',
     pinSpacing: true,
-    start: '500',
+    start: '400',
     end: '0',
     scrub: 2,
   },
@@ -148,7 +149,7 @@ gsap.to('.try', {
     trigger: '.container',
     pin: '.container2',
     pinSpacing: true,
-    start: '500',
+    start: '400',
     end: '0',
     scrub: 2,
     toggleActions: 'restart none none reverse',
@@ -161,7 +162,7 @@ gsap.to('.c-pink', {
   scrollTrigger: {
     trigger: '.container',
     pin: 'container3',
-    start: '500',
+    start: '400',
     end: '0',
     scrub: 1.5,
   },
@@ -182,7 +183,7 @@ gsap.to('.man, .tr-yell', {
   scrollTrigger: {
     trigger: '.container',
     pin: 'container3',
-    start: '500',
+    start: '400',
     end: '0',
     scrub: 2,
   },
@@ -212,7 +213,7 @@ gsap.to('.woman', {
   scrollTrigger: {
     trigger: '.container',
     pin: 'container3',
-    start: '500',
+    start: '400',
     end: '0',
     scrub: 1.5,
   },
@@ -275,7 +276,7 @@ gsap.to('.tr-bl', {
   scrollTrigger: {
     trigger: '.container',
     pin: 'container5',
-    start: '1100',
+    start: '1000',
     end: '0',
     scrub: 2,
   },
@@ -286,7 +287,7 @@ gsap.to('.green-1', {
   scrollTrigger: {
     trigger: '.container',
     pin: 'container5',
-    start: '1100',
+    start: '1000',
     end: '0',
     scrub: 2,
   },
@@ -307,7 +308,7 @@ gsap.to('.asset', {
   scrollTrigger: {
     trigger: '.container',
     pin: 'container5',
-    start: '1100',
+    start: '1000',
     end: '0',
     scrub: 2,
   },
@@ -328,7 +329,7 @@ gsap.to('.pink-1', {
   scrollTrigger: {
     trigger: '.container',
     pin: 'container5',
-    start: '1100',
+    start: '1000',
     end: '0',
     scrub: 2,
   },
@@ -349,7 +350,7 @@ gsap.to('.red-car', {
   scrollTrigger: {
     trigger: '.container',
     pin: 'container5',
-    start: '1100',
+    start: '1000',
     end: '0',
     scrub: 2,
   },
@@ -370,7 +371,7 @@ gsap.to('.vespa', {
   scrollTrigger: {
     trigger: '.container',
     pin: 'container5',
-    start: '1100',
+    start: '1000',
     end: '0',
     scrub: 4,
   },

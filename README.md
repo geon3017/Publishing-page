@@ -14,3 +14,4 @@ https://www.samsung.com/sec/sustainability/main/
 ## 작업중
 ## 230726 설명란 나오기 연습함
 ## 230727 파란색 부분 작업중 이거 완료하면 footer 작업
+## 230728 디테일하게 수정중
