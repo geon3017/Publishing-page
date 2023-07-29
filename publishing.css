@@ -396,6 +396,12 @@ header .one-image .box4 {
   width: 70%;
   padding-right: 5vw;
 }
+.content-right .tr-red{
+  width: 128px;
+}
+.content-right .r-pink{
+  width: 122px;
+}
 
 /* 캐릭터 이미지 */
 .image {
@@ -449,7 +455,15 @@ header .one-image .box4 {
   /* margin-left: 10vw; */
   font-weight: 700;
 }
-
+.paragraph img{
+  width: 120px;
+}
+.content-right .tr-yell2{
+  width: 128px;
+}
+.content-right .arc-blue{
+  width: 112px;
+}
 /* How We Move */
 .three {
   width: 100%;
@@ -466,6 +480,12 @@ header .one-image .box4 {
   margin-left: 400px;
   padding-top: 40px;
   gap: 3.2vw;
+}
+.three .tr-yell2{
+  width: 128px;
+}
+.three .arc-blue{
+  width: 112px;
 }
 .three .text-container .text-6box {
   display: flex;
@@ -573,6 +593,19 @@ header .one-image .box4 {
 .four .logo .logo-box img {
   width: 150px;
   height: 96px;
+}
+.img-box-tr{
+  position: absolute;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.four .r-pink2{
+  width: 125px;
+  
+}
+.four .tr-green{
+  width: 160px;
 }
 .five {
   width: 100%;
