@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
   <!-- css -->
   <link rel="stylesheet" href="./publishing.css">
+  <link rel="stylesheet" href="./common/public.css">
   <!-- jQ -->
   <script src="./common/jquery-3.7.0.min.js"></script>
   <!-- swiper js-->
@@ -36,14 +37,31 @@
 
 <body>
   <header class="header-box">
-    <div class="main-log">
-      <ul>
-        <li><img src="./gif/move-logo-fr-min.gif" alt="움직이는 로고"></li>
-        <li>
-          <p>햄버거바</p>
-        </li>
-      </ul>
+    <div class="main-menu">
+      <div class="header">
+        <!----- home ----->
+        <div class="name">
+          <img src="./gif/move-logo-fr-min.gif" alt="움직이는 로고">
+        </div>
+        <!----- 햄버거메뉴 ----->
+        <div class="hamburger_btn">
+          <label class="container">
+            <input type="checkbox" class="checkbox">
+            <div class="checkmark">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </label>
+        </div>
+      </div>
     </div>
+    <ul class="menu" id="menu">
+      <li><a href="https://geon3017.github.io/Portfolio-Main-Geon/" id="home">home</a></li>
+      <li><a href="https://geon3017.github.io/uiux/">내손안에 분리수거</a></li>
+      <li><a href="https://geon3017.github.io/Volvo-expl/">VOLVO</a></li>
+      <li><a href="https://2023javas.github.io/JAVAS_project/">베이힐풀앤빌라</a></li>
+    </ul>
     <div class="container">
       <div class="main-box">
         <div class="hero-text scr" data-aos="fade-in" data-aos-offset="10" data-aos-delay="50" data-aos-duration="1000"
@@ -54,7 +72,7 @@
             new worlds<span class="text-span">.</span>
           </p>
           <h1 class="small-h1">We&#x27;re an award-winning animation studio, turning ideas into animated stories full of
-            character, magic and joy.</h1>
+            character, magic and joy<span>.</span></h1>
         </div>
         <div class="one-image">
           <div class="one-image-box">
@@ -133,54 +151,62 @@
     </div>
   </header>
   <section class="one">
-    <div class="content-left">
+    <div class="content-left left-1">
       <h3>
         Hello There<span class="full-stop">.</span>
       </h3>
-      <div class="content-right">
+      <div class="content-right right-1">
         <img class="tr-red" src="svg=img/tr-red.svg" alt="빨간 삼각형">
-        <h2>We &#x27;re Move, an animation studio in Brighton inspiring people to think differently by transporting
-          them to new worlds.</h2>
-        <p>
-          We bring clarity to complex ideas using our imagination, experience and a sprinkling of
-          magic.<span>How?</span>
-          By turning them into animated stories full of character and joy. <br />
-          <br />
-          <a href="#" class="arr">More About Us</a>
-          <br />
-        </p>
+        <div class="Figure">
+          <h2>We &#x27;re Move, an animation studio in Brighton inspiring people to think differently by transporting
+            them to new worlds.</h2>
+          <p>
+            We bring clarity to complex ideas using our imagination, experience and a sprinkling of
+            magic. <span>How?</span>
+            By turning them into animated stories full of character and joy. <br />
+            <br />
+            <a href="#" class="arr">More About Us</a>
+            <br />
+          </p>
+        </div>
         <img class="r-pink" src="svg=img/r-pink.svg" alt="핑크색 막대기">
       </div>
     </div>
     <div class="content-left">
-      <h3>
-        <strong>What We Do</strong>
-        <span class="full-stop">.</span>
-      </h3>
-      <div class="content-right">
-        <h2>
-          We create compelling animations and interactive experiences for well-known brands and childrens
-          entertainment.<br />
-        </h2>
-        <p class="paragraph">
-          Our work spans various platforms, including <span> TV shows
-            , advertising campaigns
-            , ar apps
-            , explainer videos
-            , and motion graphics animations
-            . </span><br />
-          <br />
-          We bring together character design, storyboards, 2D &amp;3D animation, motion design, post-production,
-          sound design, vfx and app development, to craft memorable experiences that engage, inspire, and connect
-          with audiences.<br />
-          <br />
-          We make new worlds. Let us <span>Move</span>
-          yours...<br />‍
+      <div class="what-box">
+        <h3>
+          <strong>What We Do</strong>
+          <span class="full-stop">.</span>
+        </h3>
+      </div>
+      <div class="content-right right-2">
+        <div class="right-2-text">
+          <h2>
+            We create compelling animations and interactive experiences for well-known brands and childrens
+            entertainment.<br />
+          </h2>
+          <p class="paragraph-one">
+            Our work spans various platforms, including <span> TV shows
+              , advertising campaigns
+              , ar apps
+              , explainer videos
+              , and motion graphics animations.one
+              . </span><br />
+            <br />
+            We bring together character design, storyboards, 2D &amp;3D animation, motion design, post-production,
+            sound design, vfx and app development, to craft memorable experiences that engage, inspire, and connect
+            with audiences.<br />
+            <br />
+            We make new worlds. Let us <span>Move</span>
+            yours...<br />‍
+          </p>
+          <p>
+            <a class="arr" href="#">Get in touch</a>
+          </p>
+        </div>
+        <div class="Figure1">
           <img src="./svg=img/sc-yellow.svg" alt="노랑 반원">
-        </p>
-        <p>
-          <a href="#">Get in touch</a>
-        </p>
+        </div>
       </div>
     </div>
     <div class="image">
@@ -201,7 +227,7 @@
           <p>coming soon</p>
         </li>
       </ul>
-      <a href="#">more work</a>
+      <a class="arr" href="#">more work</a>
     </div>
   </section>
   <section class="two">
@@ -210,8 +236,8 @@
         <strong>Who We&#x27;ve Moved</strong>
         <span class="full-stop">.</span>
       </h3>
-      <div class="content-right">
-        <div>
+      <div class="content-right right-3">
+        <div class="Figure2">
           <img class="tr-yell2" src="./svg=img/r-yellow.svg" alt="노란 막대">
           <img class="arc-blue" src="./svg=img/tr-blue.svg" alt="파란 삼각형">
         </div>
@@ -270,7 +296,7 @@
   </section>
   <section class="three">
     <div class="three-box">
-      <div class="content-left">
+      <div class="content-left left-3">
         <h3>
           <strong>How We Move</strong>
           <span class="full-stop">.</span>
@@ -285,7 +311,7 @@
         </div>
       </div>
       <div class="text-container">
-        <div >
+        <div>
           <img class="tr-yell2" src="./svg=img/r-yellow.svg" alt="노란 막대">
           <img class="arc-blue" src="./svg=img/tr-blue.svg" alt="파란 삼각형">
         </div>
@@ -294,7 +320,7 @@
             <p>
               What types of animation do you specialise in?
             </p>
-            <span>1</span>
+            <span><img src="./logo-box/add.svg" alt="플러스"></span>
             <div class="text-box">
               <p>We specialise in a variety of animated videos, including 2D
                 animation, 3D animation (CGI), motion graphics, hand drawn, vector, and augmented reality (AR)
@@ -309,7 +335,7 @@
               What does your animation production
               process look like?
             </p>
-            <span>1</span>
+            <span><img src="./logo-box/add.svg" alt="플러스"></span>
             <div class="text-box">
               <p>
                 Our animation process starts with a creative meeting, where
@@ -326,7 +352,7 @@
               How much do animations cost to
               produce?
             </p>
-            <span>1</span>
+            <span><img src="./logo-box/add.svg" alt="플러스"></span>
             <div class="text-box">
               <p>
                 The cost of animation production can vary depending on the
@@ -343,7 +369,7 @@
             <p class="short">
               What is Augmented Reality (AR)?
             </p>
-            <span>1</span>
+            <span><img src="./logo-box/add.svg" alt="플러스"></span>
             <div class="text-box">
               <p>
                 Augmented Reality (AR) is an interactive experience that
@@ -362,7 +388,7 @@
               How do you ensure the animation
               meets our expectations?
             </p>
-            <span>1</span>
+            <span><img src="./logo-box/add.svg" alt="플러스"></span>
             <div class="text-box">
               <p>
                 We make sure to involve our clients in every step of the
@@ -380,7 +406,7 @@
               What are the benefits of using
               animation over filmed footage?
             </p>
-            <span>1</span>
+            <span><img src="./logo-box/add.svg" alt="플러스"></span>
             <div class="text-box">
               <p>
                 There are several benefits to using animation over regular
@@ -400,7 +426,7 @@
               How long does it take to produce an
               animation?
             </p>
-            <span>1</span>
+            <span><img src="./logo-box/add.svg" alt="플러스"></span>
             <div class="text-box">
               <p>
                 The time it takes to produce an animated video can vary
@@ -418,7 +444,7 @@
               What software and tools do you use
               to create animations?
             </p>
-            <span>1</span>
+            <span><img src="./logo-box/add.svg" alt="플러스"></span>
             <div class="text-box">
               <p>
                 Our animation studio uses the latest industry-standard
@@ -434,7 +460,7 @@
               Can you create custom characters
               &amp;designs for my project?
             </p>
-            <span>1</span>
+            <span><img src="./logo-box/add.svg" alt="플러스"></span>
             <div class="text-box">
               <p>
                 Yes, we can definitely create custom characters and designs
@@ -451,7 +477,7 @@
               What is the difference between 2D
               and 3D animation?
             </p>
-            <span>1</span>
+            <span><img src="./logo-box/add.svg" alt="플러스"></span>
             <div class="text-box">
               <p>
                 The difference between 2D and 3D animation is that 2D is
@@ -470,7 +496,7 @@
               How do you approach storytelling in
               your animations?
             </p>
-            <span>1</span>
+            <span><img src="./logo-box/add.svg" alt="플러스"></span>
             <div class="text-box">
               <p>
                 We believe that storytelling is at the heart of every great
@@ -486,7 +512,7 @@
             <p class="short">
               Can you work within my budget?
             </p>
-            <span>1</span>
+            <span><img src="./logo-box/add.svg" alt="플러스"></span>
             <div class="text-box">
               <p>
                 Yes, we can absolutely work within your budget! We
@@ -500,7 +526,7 @@
       </div>
     </div>
     <div class="four">
-      <div class="content-left">
+      <div class="content-left four2">
         <h3>
           Our Clients<span class="full-stop">.</span>
         </h3>
@@ -550,14 +576,14 @@
       <div class="content-right">
         <h2>Ready to make some magic? Send us a message or give us a call to get the ball rolling!</h2>
         <p>
-          <a href="#">Get in touch</a>
+          <a class="arr" href="#">Get in touch</a>
         </p>
       </div>
     </div>
     <div class="footer-menu">
       <div class="footer-box">
-        <img src="./svg=img/move-logo.svg" alt="">
-        <p id="w-node">
+        <img class="main-img" src="./svg=img/move-logo.svg" alt="메인로고">
+        <p id="w-node1">
           8-9 Ship Street,<br />
           Brighton BN1 1AD<br />
           ‍<br />

@@ -1,3 +1,11 @@
+// 메뉴
+$(function () {
+  $('.checkbox').on('click', () => {
+    $('.header').toggleClass('active');
+    $('.hamburger_btn').toggleClass('active');
+    $('.menu').slideToggle(); // == display: block
+  });
+});
 // 삼각형
 gsap.registerPlugin(ScrollToPlugin);
 gsap.to('.box1, .box2', {
