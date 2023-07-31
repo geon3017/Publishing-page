@@ -17,3 +17,4 @@ https://www.samsung.com/sec/sustainability/main/
 ## 230728 디테일하게 수정중
 ## 230728 도형 추가
 ## 230731 디테일 추가중
+## 230731 메뉴 작업중
