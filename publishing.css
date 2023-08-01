@@ -21,7 +21,7 @@ header {
   padding: 0;
 }
 header .main-log {
-  padding: 10px 50px 30px 0;
+  padding: 0.521vw 2.604vw 1.563vw 0;
 }
 header .main-log ul {
   display: flex;
@@ -29,11 +29,11 @@ header .main-log ul {
 }
 
 header .main-log ul li img {
-  width: 175px;
+  width: 9.115vw;
 }
 header .hero-text {
   text-align: center;
-  margin: 250px 0;
+  margin: 13.021vw 0;
   position: relative;
   top: -2vw;
   z-index: -11;
@@ -42,8 +42,8 @@ header .hero-text {
 /* text */
 header .hero-text .paragraph-header {
   z-index: -1;
-  font-size: 90px;
-  margin-bottom: 28px;
+  font-size: 4.688vw;
+  margin-bottom: 1.458vw;
   line-height: 84px;
   font-weight: 800;
 }
@@ -51,7 +51,7 @@ header .hero-text .paragraph-header {
 /* text */
 header .hero-text .small-h1 {
   text-align: center;
-  font-size: 21px;
+  font-size: 1.094vw;
   font-weight: 400;
   margin-left: 31.5vw;
   /* position: relative; */
@@ -100,7 +100,7 @@ header .one-image .box3 {
 
 /* 태양 모양 */
 header .one-image .box4 {
-  width: 315px;
+  width: 16.406vw;
   position: absolute;
   top: -15vw;
   left: 70vw;
@@ -126,7 +126,7 @@ header .one-image .box4 {
 
 /* text */
 .nintendo-box .nintendo {
-  font-size: 90px;
+  font-size: 4.688vw;
   margin-top: 3vw;
   line-height: 84px;
   text-align: center;
@@ -135,12 +135,12 @@ header .one-image .box4 {
 }
 .nintendo-box .Mario {
   text-align: center;
-  font-size: 30px;
+  font-size: 1.563vw;
   font-weight: 400;
   position: relative;
   width: 20vw;
-  margin-top: 10px;
-  margin-left: 38px;
+  margin-top: 0.521vw;
+  margin-left: 1.979vw;
 }
 
 /* 마리오 레고 */
@@ -196,8 +196,8 @@ header .one-image .box4 {
 /* text */
 .acast-box .acast {
   z-index: 1;
-  font-size: 90px;
-  margin-bottom: 10px;
+  font-size: 4.688vw;
+  margin-bottom: 0.521vw;
   line-height: 84px;
   /* letter-spacing: 0.2em; */
   text-align: center;
@@ -205,7 +205,7 @@ header .one-image .box4 {
 }
 .podcasts {
   text-align: center;
-  font-size: 30px;
+  font-size: 1.563vw;
   font-weight: 400;
   margin-left: 22%;
   margin-right: 22%;
@@ -262,8 +262,8 @@ header .one-image .box4 {
 
 /* text */
 .lego-box .lego {
-  font-size: 90px;
-  margin-bottom: 20px;
+  font-size: 4.688vw;
+  margin-bottom: 1.042vw;
   line-height: 84px;
   /* letter-spacing: 0.2em; */
   text-align: center;
@@ -272,7 +272,7 @@ header .one-image .box4 {
 }
 .lego-life {
   text-align: center;
-  font-size: 30px;
+  font-size: 1.563vw;
   font-weight: 400;
   width: 21vw;
   /* margin-left: 1vw; */
@@ -329,8 +329,8 @@ header .one-image .box4 {
 /* text */
 .toyota-box .toyota {
   z-index: 1;
-  font-size: 90px;
-  margin-bottom: 40px;
+  font-size: 4.688vw;
+  margin-bottom: 2.083vw;
   line-height: 84px;
   /* letter-spacing: 0.2em; */
   font-weight: 800;
@@ -338,9 +338,9 @@ header .one-image .box4 {
 }
 .easy {
   text-align: center;
-  font-size: 30px;
+  font-size: 1.563vw;
   font-weight: 400;
-  margin-left: 2.3vw;
+  margin-left: 1.5vw;
   /* margin-right: 22%; */
   position: relative;
   width: 17vw;
@@ -392,27 +392,27 @@ header .one-image .box4 {
   position: absolute;
   top: 2200px;
   background-color: #fff;
-  padding-bottom: 140px;
-  padding-left: 152px;
-  padding-right: 152px;
+  padding-bottom: 7.292vw;
+  padding-left: 7.917vw;
+  padding-right: 7.917vw;
 }
 .one .content-left {
   display: flex;
   justify-content: space-between;
-  padding: 140px 0;
+  padding: 7.292vw 0;
   color: #213052;
 }
 .left-1 {
   border-bottom: 2px solid #ddd;
 }
 .one .content-left h2 {
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-size: 2.083vw;
+  margin-bottom: 2.083vw;
   font-weight: 700;
   /* width: 45vw; */
 }
 .one .content-left h3 {
-  font-size: 32px;
+  font-size: 1.667vw;
   font-weight: bold;
   width: 20vw;
 }
@@ -420,7 +420,7 @@ header .one-image .box4 {
   margin-right: 8vw;
 }
 .one .content-right {
-  font-size: 24px;
+  font-size: 1.25vw;
   width: 75%;
   /* padding-right: 5vw; */
 }
@@ -439,33 +439,33 @@ header .one-image .box4 {
 }
 .content-right .r-pink {
   position: relative;
-  left: 60px;
-  bottom: 20px;
+  left: 3.125vw;
+  bottom: 1.042vw;
   transform: rotate(-35deg);
 }
 .content-right .tr-red {
   position: relative;
-  right: 70px;
-  bottom: 40px;
+  right: 3.646vw;
+  bottom: 2.083vw;
   transform: rotate(30deg);
 }
 .content-right .tr-red {
-  width: 128px;
-  bottom: 150px;
+  width: 6.667vw;
+  bottom: 7.813vw;
 }
 .content-right .r-pink {
-  width: 122px;
-  bottom: 200px;
+  width: 6.354vw;
+  bottom: 10.417vw;
 }
 .Figure p {
-  width: 50vw;
+  width: 45vw;
 }
 .Figure span {
   text-transform: capitalize;
   font-weight: 700;
 }
 .content-left .paragraph-one {
-  width: 50vw;
+  width: 48vw;
 }
 .content-left .paragraph-one span {
   font-weight: 700;
@@ -475,7 +475,7 @@ header .one-image .box4 {
   /* justify-content: space-between; */
 }
 .Figure1 img {
-  width: 120px;
+  width: 6.25vw;
   position: relative;
   top: 25vw;
   left: 3vw;
@@ -491,32 +491,33 @@ header .one-image .box4 {
 .arrow1 {
   display: flex;
   align-items: center;
-  font-size: 22px;
+  font-size: 1.146vw;
 }
 .arrow1 img {
-  margin-top: 4px;
+  margin-top: 0.208vw;
 }
-/* 캐릭터 이미지 */
+/* 3개의 캐릭터이미지 */
 .image {
-  margin-bottom: 50px;
-  padding-bottom: 80px;
+  margin-left: 2vw;
+  margin-bottom: 2.604vw;
+  padding-bottom: 4.167vw;
   border-bottom: 2px solid #ddd;
 }
 .img-box {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
+  margin-bottom: 3.125vw;
 }
 .img-box li h3 {
-  font-size: 28px;
-  margin-top: 13px;
+  font-size: 1.458vw;
+  margin-top: 1.458vw;
   text-transform: capitalize;
   font-weight: 700;
   color: #213052;
 }
 .img-box li p {
-  font-size: 21px;
-  margin-top: 10px;
+  font-size: 1.094vw;
+  margin-top: 0.521vw;
   color: #213052;
 }
 .img-box li img {
@@ -527,7 +528,7 @@ header .one-image .box4 {
   transition: 0.5s;
 }
 .image a {
-  font-size: 22px;
+  font-size: 1.146vw;
   text-transform: capitalize;
   text-decoration: underline;
   color: #213052;
@@ -537,26 +538,27 @@ header .one-image .box4 {
 .two {
   width: 100%;
   position: absolute;
-  top: 4210px;
+  top: 4215px;
   background-color: #fff;
-  padding-top: 140px;
-  padding-left: 152px;
-  padding-right: 152px;
+  padding-top: 7.292vw;
+  padding-left: 7.917vw;
+  padding-right: 7.917vw;
 }
 .two .content-left {
   display: flex;
   justify-content: space-between;
 }
 .two .content-left h3 {
-  font-size: 32px;
+  font-size: 1.667vw;
   font-weight: 700;
-  width: 100vw;
+  width: 92vw;
   color: #213052;
 }
 .two .content-right h2 {
   width: 90%;
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-size: 2.083vw;
+  margin-bottom: 2.083vw;
+  margin-right: 10vw;
   /* margin-left: 10vw; */
   font-weight: 700;
   color: #213052;
@@ -573,7 +575,7 @@ header .one-image .box4 {
   transform: rotate(45deg);
 }
 .content-right .arc-blue {
-  width: 112px;
+  width: 5.833vw;
   position: absolute;
   left: -3vw;
   top: 30vw;
@@ -586,7 +588,7 @@ header .one-image .box4 {
   top: 20vw;
 }
 .Figure2 img:first-child {
-  margin-bottom: 100px;
+  margin-bottom: 5.208vw;
 }
 /* How We Move */
 .three {
@@ -596,13 +598,13 @@ header .one-image .box4 {
   background-color: #fff;
 }
 .three .three-box {
-  padding: 300px 152px 40px;
+  padding: 13.625vw 7.917vw 2.083vw;
 }
 .three .text-container {
-  width: 900px;
+  width: 46.875vw;
   display: flex;
-  margin-left: 295px;
-  padding-top: 40px;
+  margin-left: 16.7vw;
+  padding-top: 2.083vw;
   gap: 3.2vw;
 }
 .three .text img {
@@ -610,7 +612,7 @@ header .one-image .box4 {
 }
 
 .three .tr-yell3 {
-  width: 128px;
+  width: 6.667vw;
   position: relative;
   left: -10vw;
   bottom: -5vw;
@@ -618,7 +620,7 @@ header .one-image .box4 {
   transform: rotate(45deg);
 }
 .three .arc-blue2 {
-  width: 112px;
+  width: 5.833vw;
   position: relative;
   left: -5vw;
   bottom: -5vw;
@@ -626,7 +628,7 @@ header .one-image .box4 {
 .three .text-container .text-6box {
   display: flex;
   flex-direction: column;
-  margin-left: 25px;
+  margin-left: 1.302vw;
 }
 .three .text-container .text-6box1 {
   display: flex;
@@ -637,12 +639,12 @@ header .one-image .box4 {
   place-items: center;
   justify-items: end;
   grid-template-columns: repeat(2, 1fr);
-  width: 380px;
-  padding: 10px 10px 10px 20px;
-  margin-bottom: 24px;
+  width: 19.792vw;
+  padding: 0.521vw 0.521vw 0.521vw 1.042vw;
+  margin-bottom: 1.25vw;
   background-color: #f8f3f1;
-  font-size: 18px;
-  border-radius: 20px;
+  font-size: 0.938vw;
+  border-radius: 1.042vw;
   box-shadow: 0 2px 6px rgba(19, 18, 66, 0.07);
 }
 .three .text-container .flex .text p {
@@ -655,43 +657,43 @@ header .one-image .box4 {
   margin: 13px 0;
 }
 .three .text-container .flex .text-box {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 1.042vw;
+  margin-bottom: 0.521vw;
   background-color: #f8f3f1;
   display: none;
-  font-size: 18px;
+  font-size: 0.938vw;
   font-weight: 300;
 }
 .three .text-container span {
   cursor: pointer;
-  font-size: 18px;
-  margin-right: 20px;
+  font-size: 0.938vw;
+  margin-right: 1.042vw;
 }
 /* 텍스트 */
 .three .left-3 {
   border-top: 2px solid #ddd;
-  padding-top: 5vw;
+  padding-top: 8vw;
 }
 .three .content-left {
   display: flex;
   /* justify-content: space-between; */
 }
 .three .content-left h3 {
-  font-size: 32px;
-  width: 463px;
+  font-size: 1.667vw;
+  width: 26vw;
   font-weight: bold;
   margin-right: 2.2vw;
   color: #213052;
 }
 .three .content-left .paragraph h2 {
   width: 45vw;
-  font-size: 44px;
-  margin-bottom: 40px;
+  font-size: 2.292vw;
+  margin-bottom: 2.083vw;
   font-weight: 700;
   color: #213052;
 }
 .three .content-left .paragraph p {
-  font-size: 24px;
+  font-size: 1.25vw;
   width: 45vw;
   color: #213052;
 }
@@ -700,7 +702,7 @@ header .one-image .box4 {
   display: block;
   width: 100%;
   background-color: #1c3054;
-  padding: 140px 152px 140px;
+  padding: 7.292vw 7.917vw 7.292vw;
   color: #fff;
 }
 .four .content-left {
@@ -709,7 +711,7 @@ header .one-image .box4 {
 }
 .four .content-left h3 {
   width: 51vw;
-  font-size: 32px;
+  font-size: 1.667vw;
   font-family: 700;
   color: #fff;
 }
