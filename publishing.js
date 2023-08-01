@@ -395,8 +395,18 @@ gsap.to('.vespa', {
     scrub: 4,
   },
 });
-// text
 
+gsap.to('.background', {
+  y: -500,
+  scrollTrigger: {
+    trigger: '.container',
+    pin: '.one',
+    start: '1300',
+    end: '0',
+    scrub: 1,
+  },
+});
+// text
 $(document).ready(function () {
   $('span').click(function () {
     var submenu = $(this).next('.text-box');
@@ -407,4 +417,107 @@ $(document).ready(function () {
       submenu.slideDown();
     }
   });
+});
+// hello there
+gsap.to('.tr-red', {
+  y: 200,
+  scrollTrigger: {
+    trigger: '.left-1',
+    pin: '.what-box',
+    start: '1850',
+    end: '0',
+    scrub: 3,
+  },
+});
+gsap.to('.r-pink', {
+  y: 200,
+  scrollTrigger: {
+    trigger: '.left-1',
+    pin: '.what-box',
+    start: '1850',
+    end: '0',
+    scrub: 5,
+  },
+  rotation: 360,
+});
+// what we do
+gsap.to('.sc-yellow', {
+  y: -200,
+  scrollTrigger: {
+    trigger: '.what-box',
+    pin: '.img-box',
+    start: '2500',
+    end: '0',
+    scrub: 5,
+  },
+  rotation: 350,
+});
+// who we've moved
+gsap.to('.tr-yell2', {
+  y: -200,
+  scrollTrigger: {
+    trigger: '.two',
+    pin: '.three',
+    start: '4000',
+    end: '0',
+    scrub: 5,
+  },
+  rotation: 350,
+});
+gsap.to('.arc-blue', {
+  y: -200,
+  scrollTrigger: {
+    trigger: '.two',
+    pin: '.three',
+    start: '4000',
+    end: '0',
+    scrub: 5,
+  },
+  rotation: -350,
+});
+// how we move
+gsap.to('.tr-yell3', {
+  y: -200,
+  scrollTrigger: {
+    trigger: '.three',
+    pin: '.four',
+    start: '5200',
+    end: '0',
+    scrub: 5,
+  },
+  rotation: 350,
+});
+gsap.to('.arc-blue2', {
+  y: -200,
+  scrollTrigger: {
+    trigger: '.three',
+    pin: '.four',
+    start: '5200',
+    end: '0',
+    scrub: 5,
+  },
+  rotation: -350,
+});
+// our clients
+gsap.to('.r-pink2', {
+  y: -200,
+  scrollTrigger: {
+    trigger: '.four',
+    pin: '.five',
+    start: '6200',
+    end: '0',
+    scrub: 5,
+  },
+  rotation: 350,
+});
+gsap.to('.tr-green', {
+  y: -200,
+  scrollTrigger: {
+    trigger: '.four',
+    pin: '.five',
+    start: '6500',
+    end: '0',
+    scrub: 5,
+  },
+  rotation: -350,
 });

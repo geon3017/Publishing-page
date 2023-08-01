@@ -253,8 +253,8 @@ header .one-image .box4 {
 }
 .lego-box {
   position: absolute;
-  top: 19.5vw;
-  left: 42vw;
+  top: 20vw;
+  left: 38vw;
   color: #fff;
   /* height: 100vh; */
   /* opacity: 0; */
@@ -314,12 +314,18 @@ header .one-image .box4 {
 }
 .toyota-box {
   position: absolute;
-  top: 20.5vw;
-  left: 41vw;
+  top: 21vw;
+  left: 40vw;
   /* opacity: 0; */
   color: #fff;
 }
-
+.background {
+  position: absolute;
+  top: 101vw;
+  background-color: #2470c7;
+  width: 100%;
+  height: 50vw;
+}
 /* text */
 .toyota-box .toyota {
   z-index: 1;
@@ -445,9 +451,11 @@ header .one-image .box4 {
 }
 .content-right .tr-red {
   width: 128px;
+  bottom: 150px;
 }
 .content-right .r-pink {
   width: 122px;
+  bottom: 200px;
 }
 .Figure p {
   width: 50vw;
@@ -469,14 +477,29 @@ header .one-image .box4 {
 .Figure1 img {
   width: 120px;
   position: relative;
-  top: 18vw;
+  top: 25vw;
   left: 3vw;
-  transform: rotate(-30deg);
+  transform: rotate(-35deg);
+}
+.arrow {
+  display: flex;
+  align-items: center;
+}
+.arrow img {
+  margin-top: 4px;
+}
+.arrow1 {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+.arrow1 img {
+  margin-top: 4px;
 }
 /* 캐릭터 이미지 */
 .image {
   margin-bottom: 50px;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
   border-bottom: 2px solid #ddd;
 }
 .img-box {
@@ -544,14 +567,16 @@ header .one-image .box4 {
 }
 .content-right .tr-yell2 {
   position: absolute;
+  bottom: -23vw;
+  left: -5vw;
   width: 128px;
   transform: rotate(45deg);
 }
 .content-right .arc-blue {
   width: 112px;
   position: absolute;
-  left: 2vw;
-  top: 12vw;
+  left: -3vw;
+  top: 30vw;
 }
 .Figure2 {
   display: flex;
@@ -583,18 +608,20 @@ header .one-image .box4 {
 .three .text img {
   width: 2vw;
 }
-.three .text img:hover {
-  transform: rotate(45deg);
-  transition: 0.5s;
-}
 
-.three .tr-yell2 {
+.three .tr-yell3 {
   width: 128px;
+  position: relative;
+  left: -10vw;
+  bottom: -5vw;
   margin: 5vw 0 10vw;
   transform: rotate(45deg);
 }
-.three .arc-blue {
+.three .arc-blue2 {
   width: 112px;
+  position: relative;
+  left: -5vw;
+  bottom: -5vw;
 }
 .three .text-container .text-6box {
   display: flex;
@@ -819,4 +846,8 @@ header .one-image .box4 {
 .f-ourwork a {
   font-size: 17px;
 }
-/* 스크롤시 움직이는 도형 */
+
+.container6 {
+  position: fixed;
+  top: 0;
+}
