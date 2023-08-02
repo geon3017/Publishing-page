@@ -68,14 +68,15 @@ gsap.to('.box4', {
 
 // 마리오
 let t1 = gsap.to('.mario-logo', {
-  y: -1250,
+  y: -1250, // transform : translateY(-1250px) 단위가 없으면 px가 기본값
   scrollTrigger: {
-    trigger: '.container',
-    pin: '.container2',
-    pinSpacing: true,
-    start: '200',
-    end: '0',
-    scrub: 2,
+    //
+    trigger: '.container', // 객체 기준 범위
+    pin: '.container2', // 활성 상태에서 트리거 요소 고정
+    pinSpacing: true, // 고정되는 엘리먼트 아래에 padding을 줘서 스크롤이 끝난 후 다음 엘리먼트가 이어서 보일 수 있도록 만들어준다.
+    start: '200', // 시작 지점
+    end: '0', // 끝 지점
+    scrub: 2, // 부드러운 스크러빙
   },
 });
 // 3번째 모션
