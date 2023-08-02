@@ -20,3 +20,4 @@ https://www.samsung.com/sec/sustainability/main/
 ## 230731 메뉴 작업중
 ## 230801 디테일 완료
 ## 230801 px -> vw로 바꾸는 중
+## 230802 푸터 수정 기술서버튼 추가 화살표 추가 등등

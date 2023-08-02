@@ -127,7 +127,7 @@ gsap.to('.dino', {
 });
 // 두번째 모션
 gsap.to('.dino', {
-  y: 500,
+  y: 600,
   scrollTrigger: {
     trigger: '.container',
     pin: '.container2',
@@ -152,7 +152,7 @@ gsap.to('.try', {
 });
 // 두번째 모션
 gsap.to('.try', {
-  y: 500,
+  y: 550,
   scrollTrigger: {
     trigger: '.container',
     pin: '.container2',
@@ -176,7 +176,7 @@ gsap.to('.c-pink', {
   },
 });
 gsap.to('.c-pink', {
-  x: 1270,
+  x: 1400,
   scrollTrigger: {
     trigger: '.container',
     pin: 'container3',
@@ -197,7 +197,7 @@ gsap.to('.man, .tr-yell', {
   },
 });
 gsap.to('.man', {
-  y: 550,
+  y: 600,
   scrollTrigger: {
     trigger: '.container',
     pin: 'container3',
@@ -217,7 +217,7 @@ gsap.to('.tr-yell', {
   },
 });
 gsap.to('.woman', {
-  x: -630,
+  x: -700,
   scrollTrigger: {
     trigger: '.container',
     pin: 'container3',
@@ -302,7 +302,7 @@ gsap.to('.green-1', {
 });
 // 두번째 모션
 gsap.to('.green-1', {
-  y: -650,
+  y: -680,
   scrollTrigger: {
     trigger: '.container',
     pin: 'container5',
@@ -344,7 +344,7 @@ gsap.to('.pink-1', {
 });
 // 두번째 모션
 gsap.to('.pink-1', {
-  y: -760,
+  y: -880,
   scrollTrigger: {
     trigger: '.container',
     pin: 'container5',
@@ -397,7 +397,7 @@ gsap.to('.vespa', {
 });
 
 gsap.to('.background', {
-  y: -500,
+  y: -600,
   scrollTrigger: {
     trigger: '.container',
     pin: '.one',

@@ -75,7 +75,7 @@ header .one-image .box1 {
   position: relative;
   /* top: 40vw; */
   left: 23vw;
-  bottom: 15vw;
+  bottom: 11vw;
   transform: rotate(50deg);
   width: 50vw;
 }
@@ -86,7 +86,7 @@ header .one-image .box2 {
   position: relative;
   /* top: 3vw; */
   right: 21.5vw;
-  bottom: 105vw;
+  bottom: 100vw;
 }
 
 /* 파란 원 */
@@ -147,8 +147,8 @@ header .one-image .box4 {
 .two-image .mario-logo {
   width: 44.5vw;
   position: absolute;
-  top: 69vw;
-  left: 2vw;
+  top: 61vw;
+  left: 1vw;
   z-index: -1;
 }
 
@@ -156,7 +156,7 @@ header .one-image .box4 {
 .two-image .dino {
   width: 28vw;
   position: absolute;
-  top: 22vw;
+  top: 20vw;
   left: 100vw;
 }
 
@@ -164,7 +164,7 @@ header .one-image .box4 {
 .two-image .try {
   width: 25vw;
   position: absolute;
-  top: 25vw;
+  top: 22vw;
   left: 94vw;
   transform: rotate(140deg);
   z-index: -1;
@@ -174,9 +174,9 @@ header .one-image .box4 {
 .two-image .grsc {
   width: 29vw;
   position: absolute;
-  top: -28vw;
+  top: -29vw;
   left: 28vw;
-  transform: rotate(160deg);
+  transform: rotate(165deg);
   z-index: -11;
 }
 
@@ -216,26 +216,26 @@ header .one-image .box4 {
 .c-pink {
   width: 30vw;
   position: absolute;
-  top: -50vw;
+  top: -48vw;
   left: 25vw;
   z-index: 111;
 }
 
 /* 노란색 삼각형 */
 .tr-yell {
-  width: 30vw;
+  width: 32vw;
   position: absolute;
-  top: 29vw;
-  left: -35vw;
+  top: 27vw;
+  left: -33vw;
   transform: rotate(-1deg);
 }
 
 /* 사람 왼쪽사람 */
 .man {
-  width: 35vw;
+  width: 35.8vw;
   position: absolute;
   top: 19vw;
-  left: -30vw;
+  left: -29.5vw;
 }
 
 /* 사람 오른쪽사람 */
@@ -243,7 +243,7 @@ header .one-image .box4 {
   width: 35vw;
   position: absolute;
   top: 8vw;
-  left: 102vw;
+  left: 100vw;
 }
 
 /* 레고 */
@@ -291,13 +291,13 @@ header .one-image .box4 {
   width: 32vw;
   position: absolute;
   top: 7vw;
-  left: -40vw;
+  left: -38vw;
 }
 .lego-blue {
   width: 55vw;
   position: absolute;
   top: 5vw;
-  left: 140vw;
+  left: 130vw;
   bottom: 0;
 }
 .tr-bl {
@@ -321,10 +321,10 @@ header .one-image .box4 {
 }
 .background {
   position: absolute;
-  top: 101vw;
+  top: 100vw;
   background-color: #2470c7;
   width: 100%;
-  height: 50vw;
+  height: 70vw;
 }
 /* text */
 .toyota-box .toyota {
@@ -350,21 +350,21 @@ header .one-image .box4 {
   width: 20vw;
   position: absolute;
   top: 23vw;
-  left: 158vw;
+  left: 150vw;
 }
 .red-car {
   width: 42vw;
   position: absolute;
   top: 24vw;
-  left: 160vw;
+  left: 150vw;
   z-index: -1;
 }
 .pink-1 {
   z-index: -11;
-  width: 35vw;
+  width: 38vw;
   position: absolute;
-  left: 130vw;
-  top: 8.8vw;
+  left: 125vw;
+  top: 8vw;
 }
 .green-1 {
   width: 35vw;
@@ -377,7 +377,7 @@ header .one-image .box4 {
   width: 33vw;
   position: absolute;
   top: -2vw;
-  left: -70vw;
+  left: -65vw;
 }
 
 .full-stop {
@@ -486,7 +486,7 @@ header .one-image .box4 {
   align-items: center;
 }
 .arrow img {
-  margin-top: 4px;
+  margin-top: 0.208vw;
 }
 .arrow1 {
   display: flex;
@@ -501,7 +501,6 @@ header .one-image .box4 {
   margin-left: 2vw;
   margin-bottom: 2.604vw;
   padding-bottom: 4.167vw;
-  border-bottom: 2px solid #ddd;
 }
 .img-box {
   display: flex;
@@ -532,6 +531,7 @@ header .one-image .box4 {
   text-transform: capitalize;
   text-decoration: underline;
   color: #213052;
+  margin-left: 1.5vw;
 }
 
 /* two */
@@ -547,6 +547,8 @@ header .one-image .box4 {
 .two .content-left {
   display: flex;
   justify-content: space-between;
+  border-top: 2px solid #ddd;
+  padding-top: 5vw;
 }
 .two .content-left h3 {
   font-size: 1.667vw;
@@ -570,7 +572,7 @@ header .one-image .box4 {
 .content-right .tr-yell2 {
   position: absolute;
   bottom: -23vw;
-  left: -5vw;
+  left: -8vw;
   width: 6.667vw;
   transform: rotate(45deg);
 }
@@ -579,6 +581,7 @@ header .one-image .box4 {
   position: absolute;
   left: -3vw;
   top: 30vw;
+  z-index: 1;
 }
 .Figure2 {
   display: flex;
@@ -594,11 +597,11 @@ header .one-image .box4 {
 .three {
   width: 100%;
   position: absolute;
-  top: 5060px;
+  top: 5150px;
   background-color: #fff;
 }
 .three .three-box {
-  padding: 13.625vw 7.917vw 2.083vw;
+  padding: 12vw 7.917vw 2.083vw;
 }
 .three .text-container {
   width: 46.875vw;
@@ -654,7 +657,7 @@ header .one-image .box4 {
   width: 15.5vw;
 }
 .three .text-container .flex .text .short {
-  margin: 13px 0;
+  margin: 0.677vw 0;
 }
 .three .text-container .flex .text-box {
   margin-top: 1.042vw;
@@ -716,42 +719,43 @@ header .one-image .box4 {
   color: #fff;
 }
 .four .content-left h2 {
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-size: 2.083vw;
+  margin-right: 9vw;
+  margin-bottom: 2.083vw;
   width: 45vw;
   font-weight: 700;
 }
 .four .content-left p {
-  font-size: 24px;
-  margin-bottom: 40px;
+  font-size: 1.25vw;
+  margin-bottom: 2.083vw;
   width: 50vw;
 }
 .four .logo .logo-box {
-  width: 900px;
+  width: 46.875vw;
   display: flex;
   justify-content: space-evenly;
-  grid-column-gap: 16px;
-  grid-row-gap: 60px;
-  margin-top: 80px;
-  padding-top: 40px;
+  grid-column-gap: 0.833vw;
+  grid-row-gap: 3.125vw;
+  margin-top: 4.167vw;
+  padding-top: 2.083vw;
   border-top: 2px solid rgba(234, 236, 239, 0.32);
 }
 .four .logo .logo-box img {
-  width: 150px;
-  height: 96px;
+  width: 7.813vw;
+  height: 5vw;
 }
 .img-box-tr {
   position: absolute;
-  left: 20px;
+  left: 1.042vw;
   display: flex;
   flex-direction: column;
 }
 .four .r-pink2 {
   position: absolute;
-  width: 125px;
+  width: 6.51vw;
 }
 .four .tr-green {
-  width: 160px;
+  width: 8.333vw;
   position: absolute;
   top: 25vw;
 }
@@ -766,29 +770,29 @@ header .one-image .box4 {
 .five {
   width: 100%;
   position: absolute;
-  top: 7700px;
+  top: 7800px;
   background-color: #f8f3f1;
-  padding: 140px 152px 50px;
-  font-size: 17px;
+  padding: 7.292vw 7.9vw 2.604vw;
+  font-size: 0.885vw;
 }
 .five .content-left {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 140px;
+  padding-bottom: 7.292vw;
 }
 
 .five .content-left h3 {
-  font-size: 32px;
+  font-size: 1.667vw;
   font-weight: 700;
   color: #213052;
 }
 .five .content-left h2 {
   width: 50vw;
-  font-size: 44px;
+  font-size: 2.292vw;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 2.083vw;
   color: #213052;
-  margin-right: 3vw;
+  margin-right: 5vw;
 }
 .content-right a {
   text-decoration: underline;
@@ -803,50 +807,90 @@ header .one-image .box4 {
   display: flex;
   /* justify-content: space-between; */
   gap: 13vw;
-  margin-bottom: 40px;
+  margin-bottom: 2.083vw;
   font-weight: 300;
   line-height: 1.5;
 }
 .five .footer-menu .footer-box img {
-  width: 210px;
-  height: 109px;
+  width: 10.938vw;
+  height: 5.677vw;
 }
 .five .footer-menu .footer-box .main-img {
   margin-right: 4vw;
 }
 .five .arr {
-  font-size: 24px;
+  font-size: 1.25vw;
   color: #213052;
 }
-.footer-buttom .address {
+/* 기술서 버튼 */
+.footer-buttom .btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 2.604vw;
+}
+.footer-buttom .btn p {
+  width: 17.031vw;
+  height: 3.802vw;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #213052;
+  line-height: 3.6;
+  font-size: 1.042vw;
+  color: #213052;
+  font-weight: 700;
+}
+/* 버튼 이벤트 */
+.footer-buttom .btn p:hover {
+  background-color: #ff4761;
+  color: #fff;
+}
+.top-going {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
-  gap: 15vw;
-  font-weight: 300;
-}
-.footer-buttom .address h4 {
-  font-weight: 300;
-}
-.footer-buttom .address p {
+  margin-top: 5vw;
+  font-family: 20px;
+  font-weight: 500;
   text-transform: capitalize;
-  font-size: 13px;
 }
-.footer-buttom .address .ltd {
-  font-size: 17px;
+
+/****** 좌측 화살표 *******/
+.footer-buttom .btn .arrow-left {
+  background: url(./images/Arrow-left.png) no-repeat 50% / contain;
+  width: 5vw;
+  height: 1vw;
+  margin-top: 1.5vw;
+  margin-right: 3.2vw;
+}
+/****** 우측 화살표 *******/
+.footer-buttom .btn .arrow-right {
+  background: url(./images/Arrow-right.png) no-repeat 50% / contain;
+  width: 5vw;
+  height: 1vw;
+  margin-top: 1.5vw;
+  margin-left: 3.2vw;
+}
+
+/* 화살표 이벤트 */
+.footer-buttom .btn:hover .arrow-left {
+  transform: translateX(50px);
+  transition: 0.5s;
+}
+.footer-buttom .btn:hover .arrow-right {
+  transform: translateX(-50px);
+  transition: 0.5s;
 }
 .logo-box2 {
   display: flex;
   margin-left: 8vw;
 }
 .logo-box2 li {
-  margin: 0 10px;
+  margin: 0 0.521vw;
 }
 .logo-box2 img {
-  width: 23px;
+  width: 1.198vw;
 }
 .f-ourwork a {
-  font-size: 17px;
+  font-size: 0.885vw;
 }
 
 .container6 {
